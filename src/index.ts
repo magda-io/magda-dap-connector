@@ -1,9 +1,11 @@
-import addJwtSecretFromEnvVar from "magda-typescript-common/src/session/addJwtSecretFromEnvVar";
-import AspectBuilder from "magda-typescript-common/src/AspectBuilder";
+import { addJwtSecretFromEnvVar } from "@magda/utils";
+import {
+    AspectBuilder,
+    JsonConnector,
+    AuthorizedRegistryClient as Registry
+} from "@magda/connector-sdk";
 import Dap from "./Dap";
 import createTransformer from "./createTransformer";
-import JsonConnector from "magda-typescript-common/src/JsonConnector";
-import Registry from "magda-typescript-common/src/registry/AuthorizedRegistryClient";
 import fs from "fs";
 import yargs from "yargs";
 

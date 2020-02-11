@@ -1,4 +1,4 @@
-import AspectBuilder from "magda-typescript-common/src/AspectBuilder";
+import { AspectBuilder } from "@magda/connector-sdk";
 import DapTransformer from "./DapTransformer";
 import DapUrlBuilder from "./DapUrlBuilder";
 import moment from "moment";
