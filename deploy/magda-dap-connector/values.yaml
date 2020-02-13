@@ -1,5 +1,6 @@
 global:
   image: {}
+  connectors: {}
 
 image: 
   name: "magda-dap-connector"
