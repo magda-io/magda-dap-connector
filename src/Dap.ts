@@ -230,7 +230,7 @@ export default class Dap implements ConnectorSource {
 
     // Custom this function following the DAP API specification: https://confluence.csiro.au/display/daphelp/Web+Services+Interface
     private requestPackageSearchPage(
-        url: uri.URI,
+        url: URI,
         fqComponent: string,
         startIndex: number,
         maxResults: number
