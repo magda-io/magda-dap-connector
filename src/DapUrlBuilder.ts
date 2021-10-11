@@ -10,8 +10,8 @@ export interface DapUrlBuilderOptions {
 export default class DapUrlBuilder {
     public readonly id: string;
     public readonly name: string;
-    public readonly baseUrl: uri.URI;
-    public readonly apiBaseUrl: uri.URI;
+    public readonly baseUrl: URI;
+    public readonly apiBaseUrl: URI;
 
     constructor(options: DapUrlBuilderOptions) {
         this.id = options.id;
