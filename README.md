@@ -27,3 +27,29 @@ Docker image releases can be found from Docker Hub:
 https://hub.docker.com/r/data61/magda-dap-connector/
 
 Development releases (per commit) are also available from [GitHub Registry](https://github.com/magda-io/magda-dap-connector/packages) and accessible with access token.
+
+## Requirements
+
+Kubernetes: `>= 1.14.0-0`
+
+## Values
+
+| Key                                | Type   | Default                              | Description |
+| ---------------------------------- | ------ | ------------------------------------ | ----------- |
+| config.id                          | string | `"dap"`                              |             |
+| config.name                        | string | `"CSIRO"`                            |             |
+| config.pageSize                    | int    | `100`                                |             |
+| config.sourceUrl                   | string | `"https://data.csiro.au/dap/ws/v2/"` |             |
+| defaultImage.imagePullSecret       | bool   | `false`                              |             |
+| defaultImage.pullPolicy            | string | `"IfNotPresent"`                     |             |
+| defaultImage.repository            | string | `"docker.io/data61"`                 |             |
+| defaultImage.tag                   | string | `"0.0.57-0"`                         |             |
+| defaultSettings.includeCronJobs    | bool   | `true`                               |             |
+| defaultSettings.includeInitialJobs | bool   | `false`                              |             |
+| defaultTenantId                    | int    | `0`                                  |             |
+| global.connectors.image            | object | `{}`                                 |             |
+| global.image                       | object | `{}`                                 |             |
+| image.name                         | string | `"magda-dap-connector"`              |             |
+| resources.limits.cpu               | string | `"100m"`                             |             |
+| resources.requests.cpu             | string | `"50m"`                              |             |
+| resources.requests.memory          | string | `"30Mi"`                             |             |
