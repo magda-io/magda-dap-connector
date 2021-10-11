@@ -32,6 +32,10 @@ Development releases (per commit) are also available from [GitHub Registry](http
 
 Kubernetes: `>= 1.14.0-0`
 
+| Repository              | Name         | Version       |
+| ----------------------- | ------------ | ------------- |
+| https://charts.magda.io | magda-common | 1.0.0-alpha.4 |
+
 ## Values
 
 | Key                                | Type   | Default                              | Description |
@@ -43,7 +47,6 @@ Kubernetes: `>= 1.14.0-0`
 | defaultImage.imagePullSecret       | bool   | `false`                              |             |
 | defaultImage.pullPolicy            | string | `"IfNotPresent"`                     |             |
 | defaultImage.repository            | string | `"docker.io/data61"`                 |             |
-| defaultImage.tag                   | string | `"0.0.57-0"`                         |             |
 | defaultSettings.includeCronJobs    | bool   | `true`                               |             |
 | defaultSettings.includeInitialJobs | bool   | `false`                              |             |
 | defaultTenantId                    | int    | `0`                                  |             |
