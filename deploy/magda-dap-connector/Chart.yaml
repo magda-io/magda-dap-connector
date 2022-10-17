@@ -1,7 +1,7 @@
 apiVersion: v2
 name: magda-dap-connector
 description: A Helm chart for Magda DAP Connector
-version: "1.0.0"
+version: "2.0.0"
 kubeVersion: ">= 1.21.0"
 home: "https://github.com/magda-io/magda-dap-connector"
 sources: [ "https://github.com/magda-io/magda-dap-connector" ]
