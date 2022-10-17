@@ -30,29 +30,29 @@ Development releases (per commit) are also available from [GitHub Registry](http
 
 ## Requirements
 
-Kubernetes: `>= 1.14.0-0`
+Kubernetes: `>= 1.21.0`
 
-| Repository              | Name         | Version       |
-| ----------------------- | ------------ | ------------- |
-| https://charts.magda.io | magda-common | 1.0.0-alpha.4 |
+| Repository | Name | Version |
+|------------|------|---------|
+| oci://ghcr.io/magda-io/charts | magda-common | 2.1.1 |
 
 ## Values
 
-| Key                                | Type   | Default                              | Description |
-| ---------------------------------- | ------ | ------------------------------------ | ----------- |
-| config.id                          | string | `"dap"`                              |             |
-| config.name                        | string | `"CSIRO"`                            |             |
-| config.pageSize                    | int    | `100`                                |             |
-| config.sourceUrl                   | string | `"https://data.csiro.au/dap/ws/v2/"` |             |
-| defaultImage.imagePullSecret       | bool   | `false`                              |             |
-| defaultImage.pullPolicy            | string | `"IfNotPresent"`                     |             |
-| defaultImage.repository            | string | `"docker.io/data61"`                 |             |
-| defaultSettings.includeCronJobs    | bool   | `true`                               |             |
-| defaultSettings.includeInitialJobs | bool   | `false`                              |             |
-| defaultTenantId                    | int    | `0`                                  |             |
-| global.connectors.image            | object | `{}`                                 |             |
-| global.image                       | object | `{}`                                 |             |
-| image.name                         | string | `"magda-dap-connector"`              |             |
-| resources.limits.cpu               | string | `"100m"`                             |             |
-| resources.requests.cpu             | string | `"50m"`                              |             |
-| resources.requests.memory          | string | `"30Mi"`                             |             |
+| Key | Type | Default | Description |
+|-----|------|---------|-------------|
+| config.id | string | `"dap"` |  |
+| config.name | string | `"CSIRO"` |  |
+| config.pageSize | int | `100` |  |
+| config.sourceUrl | string | `"https://data.csiro.au/dap/ws/v2/"` |  |
+| defaultImage.imagePullSecret | bool | `false` |  |
+| defaultImage.pullPolicy | string | `"IfNotPresent"` |  |
+| defaultImage.repository | string | `"docker.io/data61"` |  |
+| defaultSettings.includeCronJobs | bool | `true` |  |
+| defaultSettings.includeInitialJobs | bool | `false` |  |
+| defaultTenantId | int | `0` |  |
+| global.connectors.image | object | `{}` |  |
+| global.image | object | `{}` |  |
+| image.name | string | `"magda-dap-connector"` |  |
+| resources.limits.cpu | string | `"100m"` |  |
+| resources.requests.cpu | string | `"50m"` |  |
+| resources.requests.memory | string | `"30Mi"` |  |
