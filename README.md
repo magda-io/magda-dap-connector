@@ -46,7 +46,7 @@ Kubernetes: `>= 1.21.0`
 | config.sourceUrl | string | `"https://data.csiro.au/dap/ws/v2/"` |  |
 | defaultImage.imagePullSecret | bool | `false` |  |
 | defaultImage.pullPolicy | string | `"IfNotPresent"` |  |
-| defaultImage.repository | string | `"docker.io/data61"` |  |
+| defaultImage.repository | string | `"ghcr.io/magda-io"` |  |
 | defaultSettings.includeCronJobs | bool | `true` |  |
 | defaultSettings.includeInitialJobs | bool | `false` |  |
 | defaultTenantId | int | `0` |  |
