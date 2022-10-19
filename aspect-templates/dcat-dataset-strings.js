@@ -1,6 +1,6 @@
 var moment = libraries.moment;
 var dap = libraries.dap;
-
+// distribution structure see `CollectionResponse` in src/DapTypes
 return {
     title: dataset.title || dataset.name,
     description: dataset.description,

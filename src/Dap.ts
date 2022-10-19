@@ -1,40 +1,9 @@
-import { AsyncPage, formatServiceError, retry, request } from "@magda/utils";
+import { AsyncPage, formatServiceError, retry } from "@magda/utils";
 import { ConnectorSource } from "@magda/connector-sdk";
 import DapUrlBuilder from "./DapUrlBuilder";
 import URI from "urijs";
-
-export interface DapThing {
-    id: string;
-    name: string;
-    [propName: string]: any;
-}
-
-export interface DapResource extends DapThing {}
-
-export interface DapDataset extends DapThing {
-    resources: DapResource[];
-}
-
-export interface DapOrganization extends DapThing {}
-
-export interface DapPackageSearchResponse {
-    result: DapPackageSearchResult;
-    [propName: string]: any;
-}
-
-export interface DapPackageSearchResult {
-    count: number;
-    results: DapDataset[];
-    [propName: string]: any;
-}
-export interface DapDistribution {
-    distributions: object[];
-}
-
-export interface DapOrganizationListResponse {
-    result: DapOrganization[];
-    [propName: string]: any;
-}
+import requestJson from "./requestJson";
+import * as DapTypes from "./DapTypes";
 
 export interface DapOptions {
     baseUrl: string;
@@ -46,6 +15,31 @@ export interface DapOptions {
     maxRetries?: number;
     secondsBetweenRetries?: number;
     ignoreHarvestSources?: string[];
+}
+
+function collectionFile2Distribution(
+    colDetails: DapTypes.CollectionResponse,
+    fileDetails: DapTypes.CollectionFilesResponse,
+    file: DapTypes.File
+): DapTypes.FileWithExtraFields {
+    return {
+        ...file,
+        licence: fileDetails.licence,
+        licenceLink: fileDetails.licenceLink,
+        rights: fileDetails.rights,
+        access: fileDetails.access,
+        collection: colDetails
+    };
+    // const mediaType = file["link"]["mediaType"];
+    // const distributionObj: any = {};
+    // distributionObj["licence"] = detail["licence"];
+    // distributionObj["accessURL"] = detail["self"];
+    // distributionObj["downloadURL"] = file["link"]["href"];
+    // distributionObj["id"] = file["id"];
+    // distributionObj["mediaType"] = mediaType;
+    // distributionObj["format"] = mediaType;
+    // distributionObj["name"] = file["filename"];
+    // return distributionObj;
 }
 
 export default class Dap implements ConnectorSource {
@@ -85,11 +79,9 @@ export default class Dap implements ConnectorSource {
     }
     // DAP data source contains only one organization CSIRO, so leave a static organization description here.
     private organization = {
-        name:
-            "The Commonwealth Scientific and Industrial Research Organisation",
+        name: "The Commonwealth Scientific and Industrial Research Organisation",
         identifier: "CSIRO",
-        title:
-            "The Commonwealth Scientific and Industrial Research Organisation",
+        title: "The Commonwealth Scientific and Industrial Research Organisation",
         description: `The Commonwealth Scientific and Industrial Research Organisation (CSIRO) is Australia's national science agency and one of the largest and most diverse research agencies in the world. The CSIRO Data Access Portal provides access to research data, software and other digital assets published by CSIRO across a range of disciplines. The portal is maintained by CSIRO Information Management & Technology to facilitate sharing and reuse.`,
         imageUrl:
             "https://data.csiro.au/dap/resources-2.6.6/images/csiro_logo.png",
@@ -98,42 +90,26 @@ export default class Dap implements ConnectorSource {
         website: "https://data.csiro.au/"
     };
 
-    public getJsonDatasets(): AsyncPage<any[]> {
+    public getJsonDatasets(): AsyncPage<DapTypes.CollectionResponse[]> {
         const packagePages = this.packageSearch({
             ignoreHarvestSources: this.ignoreHarvestSources
         });
-        return packagePages.map(packagePage => {
-            if (packagePage) {
-                // return packagePage.dataCollections
-                return packagePage.detailDataCollections;
-            }
-        });
+        return packagePages.map((packagePage) => packagePage.dataCollections);
     }
 
-    public getJsonDataset(id: string): Promise<any> {
-        const url = this.urlBuilder.getPackageShowUrl(id);
-        return new Promise<any>((resolve, reject) => {
-            request(
-                url,
-                { json: true, timeout: 60000, pool: { maxSockets: 1000 } },
-                (error, response, body) => {
-                    if (error) {
-                        reject(error);
-                        return;
-                    }
-                    resolve(body);
-                }
-            );
-        });
+    public async getJsonDataset(
+        id: string
+    ): Promise<DapTypes.CollectionResponse> {
+        return await this.requestCollectionDetails(id);
     }
-    public getJsonDistributions(dataset: any): AsyncPage<object[]> {
-        // dataset of dataCollection from DAP /collections api does not contain a 'data' field, which defines the dirstributions
-        // Herr use an api call (/collections/id) to get the dataset with the field 'data', and then fetch
-        // return AsyncPage.single<object[]>(dataset.summarizedDistribution || [])
-        return AsyncPage.singlePromise<DapDistribution[]>(
-            this.getDistributions(dataset)
+    public getJsonDistributions(
+        dataset: DapTypes.CollectionResponse
+    ): AsyncPage<DapTypes.FileWithExtraFields[]> {
+        // dataset of dataCollection from DAP /collections api does not contain a 'data' field, which defines the distributions
+        // Here use an api call (/collections/id) to get the dataset with the url in field 'data', and then fetch
+        return AsyncPage.singlePromise<DapTypes.FileWithExtraFields[]>(
+            this.requestCollectionFileDetails(dataset)
         );
-        // return AsyncPage.singlePromise<DapDistribution[]>(this.requestDistributions(dataset.data))
     }
 
     public packageSearch(options?: {
@@ -143,7 +119,7 @@ export default class Dap implements ConnectorSource {
         soud?: string;
         sb?: string;
         rpp?: number;
-    }): AsyncPage<DapPackageSearchResponse> {
+    }): AsyncPage<DapTypes.QueryResultResponse<DapTypes.CollectionResponse>> {
         const url = new URI(this.urlBuilder.getPackageSearchUrl());
 
         const solrQueries = [];
@@ -154,7 +130,7 @@ export default class Dap implements ConnectorSource {
             options.ignoreHarvestSources.length > 0
         ) {
             solrQueries.push(
-                ...options.ignoreHarvestSources.map(title => {
+                ...options.ignoreHarvestSources.map((title) => {
                     const encoded =
                         title === "*"
                             ? title
@@ -179,7 +155,9 @@ export default class Dap implements ConnectorSource {
         const startStart = options.p || 1;
         let startIndex = startStart;
 
-        return AsyncPage.create<DapPackageSearchResponse>(previous => {
+        return AsyncPage.create<
+            DapTypes.QueryResultResponse<DapTypes.CollectionResponse>
+        >((previous) => {
             if (previous) {
                 if (
                     startIndex * previous.resultsPerPage >=
@@ -224,8 +202,94 @@ export default class Dap implements ConnectorSource {
     public getJsonDatasetPublisherId(dataset: any): string {
         return "CSIRO";
     }
+
     getJsonDatasetPublisher(dataset: any): Promise<any> {
         return Promise.resolve(this.organization);
+    }
+
+    private async requestCollectionDetails(
+        id: string
+    ): Promise<DapTypes.CollectionResponse> {
+        // Different ckan which will return detailed data with distributions, DAP collection queries just returns summary kinds of data
+        // To make the returned data contains detailed data, used Promise.all(dataset.id.identifier) to query detail data again use another api
+        const url = this.urlBuilder.getPackageShowUrl(id);
+        const collectionDetail = await requestJson<DapTypes.CollectionResponse>(
+            url
+        );
+        console.log(">> request detail of " + url);
+        if (collectionDetail.access) {
+            // --- added access info to description
+            // --- so that we know why the dataset has no distribution
+            // --- and when the distribution will be available for public
+            collectionDetail.description = `${collectionDetail.description}\n\n${collectionDetail.access}\n\n`;
+        }
+        return collectionDetail;
+    }
+
+    // DAP has dataset which included thousands of distributions (spacial data)
+    // Harvest these distributoions will cause the magda harvest and indexer process really slow (days)
+    // Read environment param distributionSize and harvest only limited distributions with every formats data included
+    private async requestCollectionFileDetails(
+        colDetail: DapTypes.CollectionResponse
+    ): Promise<DapTypes.FileWithExtraFields[]> {
+        if (!colDetail?.data) {
+            return [];
+        }
+
+        let fileDetails: DapTypes.CollectionFilesResponse;
+
+        try {
+            fileDetails = await requestJson<DapTypes.CollectionFilesResponse>(
+                colDetail.data
+            );
+        } catch (e) {
+            const id = colDetail?.id?.identifier;
+            console.log(
+                `** Unable to fetch files for collection: ${id}; url: ${colDetail.data}`
+            );
+            console.log(`** Reason: ${e}`);
+            return [];
+        }
+
+        console.log(
+            ">> request distribution of " + colDetail.data,
+            fileDetails?.file?.length
+        );
+
+        if (!fileDetails?.file?.length) {
+            return [];
+        }
+
+        const distributionMap = {} as {
+            [key: string]: DapTypes.FileWithExtraFields[];
+        };
+        fileDetails.file.forEach((file) => {
+            const mediaType = file["link"]["mediaType"];
+            if (!distributionMap[mediaType]) {
+                distributionMap[mediaType] = [];
+            }
+            const distributionObj = collectionFile2Distribution(
+                colDetail,
+                fileDetails,
+                file
+            );
+            distributionMap[mediaType].push(distributionObj);
+        });
+        // let avgDistSize = Math.ceil(this.distributionSize/distributionMap.size)
+        let returnDistributions: DapTypes.FileWithExtraFields[] = [];
+        Object.keys(distributionMap).forEach((mediaType) => {
+            const dists = distributionMap[mediaType];
+            returnDistributions = returnDistributions.concat(
+                dists.slice(
+                    0,
+                    Math.ceil(
+                        (dists.length * this.distributionSize) /
+                            fileDetails.file.length
+                    )
+                )
+            );
+        });
+        return returnDistributions;
     }
 
     // Custom this function following the DAP API specification: https://confluence.csiro.au/display/daphelp/Web+Services+Interface
@@ -234,7 +298,7 @@ export default class Dap implements ConnectorSource {
         fqComponent: string,
         startIndex: number,
         maxResults: number
-    ): Promise<DapPackageSearchResponse> {
+    ): Promise<DapTypes.QueryResultResponse<DapTypes.CollectionResponse>> {
         const pageSize =
             maxResults && maxResults < this.pageSize
                 ? maxResults
@@ -244,238 +308,45 @@ export default class Dap implements ConnectorSource {
         pageUrl.addSearch("p", startIndex);
         pageUrl.addSearch("rpp", pageSize);
 
-        const operation = () =>
-            new Promise<DapPackageSearchResponse>((resolve, reject) => {
-                const requestUrl = pageUrl.toString() + fqComponent;
-                // console.log("Requesting " + requestUrl);
-                request(
-                    requestUrl,
-                    { json: true, timeout: 60000, pool: { maxSockets: 1000 } },
-                    async (error, response, body) => {
-                        if (error) {
-                            reject(error);
-                            return;
-                        }
-                        console.log("Received@" + startIndex);
-                        if (
-                            response.statusCode !== 200 ||
-                            body.dataCollections === undefined
-                        ) {
-                            reject(
-                                "Response with code=" +
-                                    response.statusCode +
-                                    ", data retrieve will exist at page " +
-                                    startIndex
-                            );
-                            return;
-                        }
-                        // Different ckan which will return detailed data with distributions, DAP collection queries just returns summary kinds of data
-                        // To make the returned data contains detailed data, used Promise.all(dataset.id.identifier) to query detail data again use another api
-                        await Promise.all(
-                            body.dataCollections.map((simpleData: any) => {
-                                const url = this.urlBuilder.getPackageShowUrl(
-                                    simpleData.id.identifier
-                                );
-                                return new Promise<any>((resolve2, reject2) => {
-                                    request(
-                                        url,
-                                        {
-                                            json: true,
-                                            timeout: 60000,
-                                            pool: { maxSockets: 1000 }
-                                        },
-                                        (error, response, detail) => {
-                                            console.log(
-                                                ">> request detail of " + url
-                                            );
-                                            if (error) {
-                                                reject2(error);
-                                                return;
-                                            }
-                                            if (detail.access) {
-                                                // --- added access info to description
-                                                // --- so that we know why the dataset has no distribution
-                                                // --- and when the distribution will be available for public
-                                                detail.description = `${detail.description}\n\n${detail.access}\n\n`;
-                                            }
-                                            resolve2(detail);
-                                        }
-                                    );
-                                });
-                            })
-                        )
-                            .then(values => {
-                                body["detailDataCollections"] = values;
-                            })
-                            .catch(error => console.log(error));
-                        // DAP has dataset which included thousands of distributions (spacial data)
-                        // Harvest these distributoions will cause the magda harvest and indexer process really slow (days)
-                        // Read environment param distributionSize and harvest only limited distributions with every formats data included
-                        await Promise.all(
-                            body.detailDataCollections.map(
-                                (simpleData: any) => {
-                                    // const url = this.urlBuilder.getPackageShowUrl(simpleData.id.identifier);
-                                    if (simpleData.data) {
-                                        return new Promise<any>(
-                                            (resolve3, reject3) => {
-                                                request(
-                                                    simpleData.data,
-                                                    {
-                                                        json: true,
-                                                        timeout: 60000,
-                                                        pool: {
-                                                            maxSockets: 1000
-                                                        }
-                                                    },
-                                                    (
-                                                        error,
-                                                        response,
-                                                        detail
-                                                    ) => {
-                                                        if (
-                                                            detail &&
-                                                            detail.errors &&
-                                                            detail.errors.length
-                                                        ) {
-                                                            // --- handle access error
-                                                            const id =
-                                                                simpleData.id
-                                                                    .identifier;
-                                                            console.log(
-                                                                `** Unable to fetch files for collection: ${id}; url: ${simpleData.data}`
-                                                            );
-                                                            console.log(
-                                                                `** Reason: ${detail.errors[0].defaultMessage}`
-                                                            );
-                                                            resolve3({
-                                                                identifier: id,
-                                                                distributions: []
-                                                            });
-                                                            return;
-                                                        }
-                                                        console.log(
-                                                            ">> request distribution of " +
-                                                                simpleData.data,
-                                                            detail.file.length
-                                                        );
-                                                        if (error) {
-                                                            reject3(error);
-                                                            return;
-                                                        }
-                                                        let distributionMap: Map<
-                                                            String,
-                                                            object[]
-                                                        > = new Map();
-                                                        for (let file of detail.file) {
-                                                            let mediaType =
-                                                                file["link"][
-                                                                    "mediaType"
-                                                                ];
-                                                            let distributionObj: any = {};
-                                                            distributionObj[
-                                                                "licence"
-                                                            ] =
-                                                                detail[
-                                                                    "licence"
-                                                                ];
-                                                            distributionObj[
-                                                                "accessURL"
-                                                            ] = detail["self"];
-                                                            distributionObj[
-                                                                "downloadURL"
-                                                            ] =
-                                                                file["link"][
-                                                                    "href"
-                                                                ];
-                                                            distributionObj[
-                                                                "id"
-                                                            ] = file["id"];
-                                                            distributionObj[
-                                                                "mediaType"
-                                                            ] = mediaType;
-                                                            distributionObj[
-                                                                "format"
-                                                            ] = mediaType;
-                                                            distributionObj[
-                                                                "name"
-                                                            ] =
-                                                                file[
-                                                                    "filename"
-                                                                ];
-                                                            let temp =
-                                                                distributionMap.get(
-                                                                    mediaType
-                                                                ) || [];
-                                                            temp.push(
-                                                                distributionObj
-                                                            );
-                                                            distributionMap.set(
-                                                                mediaType,
-                                                                temp
-                                                            );
-                                                        }
-                                                        // let avgDistSize = Math.ceil(this.distributionSize/distributionMap.size)
-                                                        let returnDistribution: any = [];
-                                                        for (let [
-                                                            ,
-                                                            dist
-                                                        ] of distributionMap) {
-                                                            returnDistribution = returnDistribution.concat(
-                                                                dist.slice(
-                                                                    0,
-                                                                    Math.ceil(
-                                                                        (dist.length *
-                                                                            this
-                                                                                .distributionSize) /
-                                                                            detail
-                                                                                .file
-                                                                                .length
-                                                                    )
-                                                                )
-                                                            );
-                                                        }
-                                                        resolve3({
-                                                            identifier:
-                                                                simpleData.id
-                                                                    .identifier,
-                                                            distributions: returnDistribution
-                                                        });
-                                                    }
-                                                );
-                                            }
-                                        );
-                                    } else {
-                                        return new Promise<any>(
-                                            (resolve, reject) => {
-                                                resolve({
-                                                    identifier:
-                                                        simpleData.id
-                                                            .identifier,
-                                                    distributions: []
-                                                });
-                                            }
-                                        );
-                                    }
-                                }
-                            )
-                        )
-                            .then(values => {
-                                body["distributions"] = values;
-                            })
-                            .catch(error => console.log(error));
+        const operation = async () => {
+            const requestUrl = pageUrl.toString() + fqComponent;
+            const searchResult =
+                await requestJson<DapTypes.QueryResultResponse>(requestUrl);
+            console.log("Received@" + startIndex);
 
-                        for (let dataset of body.detailDataCollections) {
-                            for (let dist of body.distributions) {
-                                if (dataset.id.identifier === dist.identifier) {
-                                    dataset["summarizedDistribution"] =
-                                        dist.distributions;
-                                }
-                            }
-                        }
-                        await resolve(body);
-                    }
+            if (searchResult.totalResults) {
+                // DAP currently respond `totalResults` in string type at this moment.
+                // we will auto-convert it to fix it.
+                searchResult.totalResults = parseInt(
+                    searchResult.totalResults as unknown as string
                 );
-            });
+            }
+
+            if (!searchResult?.dataCollections?.length) {
+                throw new Error(
+                    `Got empty collections at page: ${startIndex}. Res: ${JSON.stringify(
+                        searchResult
+                    )}`
+                );
+            }
+
+            const collections: DapTypes.CollectionResponse[] = [];
+            for (const simpleData of searchResult?.dataCollections) {
+                const col = await await this.requestCollectionDetails(
+                    simpleData.id.identifier
+                );
+                collections.push({
+                    ...col,
+                    // collection detail endpoint will respond spatial parameter in
+                    // e.g. `10°28′5.466″ S`
+                    // search result page's format is closer to what we need:
+                    // e.g. `"-10.468185"`
+                    spatialParameters: simpleData.spatialParameters
+                });
+            }
+            return { ...searchResult, dataCollections: collections };
+        };
+
         return retry(
             operation,
             this.secondsBetweenRetries,
@@ -489,9 +360,5 @@ export default class Dap implements ConnectorSource {
                     )
                 )
         );
-    }
-    getDistributions(dataset: any) {
-        // console.log(dataset.summarizedDistribution)
-        return Promise.resolve(dataset.summarizedDistribution);
     }
 }

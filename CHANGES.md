@@ -6,6 +6,8 @@
 -   Release all artifacts to GitHub Container Registry (instead of docker.io & https://charts.magda.io)
 -   Upgrade API version for CronJob to batch/v1 (for k8s v1.25 support)
 -   Release multi-arch docker images
+-   Use node-fetch for all http requests instead
+-   Refactor DAP connector code
 
 # 1.0.0
 
