@@ -217,12 +217,6 @@ export default class Dap implements ConnectorSource {
             url
         );
         console.log(">> request detail of " + url);
-        if (collectionDetail.access) {
-            // --- added access info to description
-            // --- so that we know why the dataset has no distribution
-            // --- and when the distribution will be available for public
-            collectionDetail.description = `${collectionDetail.description}\n\n${collectionDetail.access}\n\n`;
-        }
         return collectionDetail;
     }
 

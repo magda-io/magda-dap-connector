@@ -1,9 +1,11 @@
-var moment = libraries.moment;
-var dap = libraries.dap;
+const moment = libraries.moment;
+const dap = libraries.dap;
 // distribution structure see `CollectionResponse` in src/DapTypes
 return {
     title: dataset.title || dataset.name,
-    description: dataset.description,
+    description: `${dataset?.description ? dataset.description + "\n\n" : ""}${
+        dataset?.access ? dataset.access + "\n\n" : ""
+    }`,
     issued: dataset.published
         ? moment.utc(dataset.published).format()
         : undefined,
@@ -20,5 +22,6 @@ return {
     themes: dataset.fieldOfResearch || [],
     keywords: dataset.keywords ? dataset.keywords.split(/[;,]+/) : [],
     contactPoint: dataset.attributionStatement,
-    landingPage: dataset.landingPage.href
+    landingPage: dataset.landingPage.href,
+    defaultLicense: dataset?.licence
 };
