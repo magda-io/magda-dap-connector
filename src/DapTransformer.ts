@@ -37,7 +37,7 @@ export default class DapTransformer extends JsonTransformer {
         sourceId: string
     ): ConnectorRecordId {
         return new ConnectorRecordId(
-            jsonDistribution.id || jsonDistribution.name,
+            jsonDistribution.id || jsonDistribution.filename,
             "Distribution",
             sourceId
         );

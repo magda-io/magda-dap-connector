@@ -1,6 +1,7 @@
 const moment = libraries.moment;
 const dap = libraries.dap;
-// distribution structure see `CollectionResponse` in src/DapTypes
+// The `dataset` object is available in the scope
+// dataset structure see `CollectionResponse` in src/DapTypes
 return {
     title: dataset.title || dataset.name,
     description: `${dataset?.description ? dataset.description + "\n\n" : ""}${

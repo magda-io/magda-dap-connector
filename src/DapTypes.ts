@@ -251,13 +251,3 @@ export interface ErrorResponse {
     requestUri: string;
     errors: ErrorDetails[];
 }
-
-export interface FileWithExtraFields extends File {
-    licence: string;
-    licenceLink: LicenceLink;
-    rights: string;
-    access: string;
-    // a reference to collection info
-    // useful when we need collection info to generate distribution info
-    collection?: CollectionResponse;
-}

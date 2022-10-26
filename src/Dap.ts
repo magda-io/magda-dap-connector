@@ -17,31 +17,6 @@ export interface DapOptions {
     ignoreHarvestSources?: string[];
 }
 
-function collectionFile2Distribution(
-    colDetails: DapTypes.CollectionResponse,
-    fileDetails: DapTypes.CollectionFilesResponse,
-    file: DapTypes.File
-): DapTypes.FileWithExtraFields {
-    return {
-        ...file,
-        licence: fileDetails.licence,
-        licenceLink: fileDetails.licenceLink,
-        rights: fileDetails.rights,
-        access: fileDetails.access,
-        collection: colDetails
-    };
-    // const mediaType = file["link"]["mediaType"];
-    // const distributionObj: any = {};
-    // distributionObj["licence"] = detail["licence"];
-    // distributionObj["accessURL"] = detail["self"];
-    // distributionObj["downloadURL"] = file["link"]["href"];
-    // distributionObj["id"] = file["id"];
-    // distributionObj["mediaType"] = mediaType;
-    // distributionObj["format"] = mediaType;
-    // distributionObj["name"] = file["filename"];
-    // return distributionObj;
-}
-
 export default class Dap implements ConnectorSource {
     public readonly id: string;
     public readonly name: string;
@@ -104,10 +79,10 @@ export default class Dap implements ConnectorSource {
     }
     public getJsonDistributions(
         dataset: DapTypes.CollectionResponse
-    ): AsyncPage<DapTypes.FileWithExtraFields[]> {
+    ): AsyncPage<DapTypes.File[]> {
         // dataset of dataCollection from DAP /collections api does not contain a 'data' field, which defines the distributions
         // Here use an api call (/collections/id) to get the dataset with the url in field 'data', and then fetch
-        return AsyncPage.singlePromise<DapTypes.FileWithExtraFields[]>(
+        return AsyncPage.singlePromise<DapTypes.File[]>(
             this.requestCollectionFileDetails(dataset)
         );
     }
@@ -225,7 +200,7 @@ export default class Dap implements ConnectorSource {
     // Read environment param distributionSize and harvest only limited distributions with every formats data included
     private async requestCollectionFileDetails(
         colDetail: DapTypes.CollectionResponse
-    ): Promise<DapTypes.FileWithExtraFields[]> {
+    ): Promise<DapTypes.File[]> {
         if (!colDetail?.data) {
             return [];
         }
@@ -255,22 +230,17 @@ export default class Dap implements ConnectorSource {
         }
 
         const distributionMap = {} as {
-            [key: string]: DapTypes.FileWithExtraFields[];
+            [key: string]: DapTypes.File[];
         };
         fileDetails.file.forEach((file) => {
             const mediaType = file["link"]["mediaType"];
             if (!distributionMap[mediaType]) {
                 distributionMap[mediaType] = [];
             }
-            const distributionObj = collectionFile2Distribution(
-                colDetail,
-                fileDetails,
-                file
-            );
-            distributionMap[mediaType].push(distributionObj);
+            distributionMap[mediaType].push(file);
         });
         // let avgDistSize = Math.ceil(this.distributionSize/distributionMap.size)
-        let returnDistributions: DapTypes.FileWithExtraFields[] = [];
+        let returnDistributions: DapTypes.File[] = [];
         Object.keys(distributionMap).forEach((mediaType) => {
             const dists = distributionMap[mediaType];
             returnDistributions = returnDistributions.concat(
