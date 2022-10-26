@@ -141,6 +141,17 @@ const datasetAspectBuilders: AspectBuilder[] = [
             "aspect-templates/temporal-coverage.js",
             "utf8"
         )
+    },
+    {
+        aspectDefinition: {
+            id: "spatial-coverage",
+            name: "Spatial Coverage",
+            jsonSchema: require("@magda/registry-aspects/spatial-coverage.schema.json")
+        },
+        builderFunctionString: fs.readFileSync(
+            "aspect-templates/spatial-coverage.js",
+            "utf8"
+        )
     }
 ];
 
