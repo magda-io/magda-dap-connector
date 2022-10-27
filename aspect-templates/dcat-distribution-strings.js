@@ -1,4 +1,4 @@
-const moment = libraries.moment;
+const getDateTimeString = libraries.getDateTimeString;
 // Both `dataset` & `distribution` objects are available in the scope
 // dataset structure see `CollectionResponse` in src/DapTypes
 // distribution structure see `File` in src/DapTypes
@@ -6,9 +6,7 @@ return {
     title: distribution.filename || distribution.id,
     description: distribution.description || undefined,
     issued: "",
-    modified: distribution.lastUpdated
-        ? moment.unix(distribution.lastUpdated).utc().format()
-        : undefined,
+    modified: getDateTimeString(distribution?.lastUpdated),
     rights: dataset?.rights,
     license: dataset?.licence || undefined,
     accessURL: dataset.landingPage.href || undefined,

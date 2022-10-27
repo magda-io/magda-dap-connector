@@ -296,8 +296,8 @@ export default class Dap implements ConnectorSource {
 
             const collections: DapTypes.CollectionResponse[] = [];
             for (const simpleData of searchResult?.dataCollections) {
-                const col = await await this.requestCollectionDetails(
-                    simpleData.id.identifier
+                const col = await this.requestCollectionDetails(
+                    "" + simpleData.dataCollectionId
                 );
                 collections.push({
                     ...col,

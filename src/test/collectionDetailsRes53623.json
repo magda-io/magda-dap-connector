@@ -65,6 +65,13 @@
     "size": "medium",
     "published": "2022-01-21T10:13:55.735+11:00",
     "leadResearcher": "Sam Yang",
+    "spatialParameters": {
+        "projection": "WGS84",
+        "northLatitude": "10°28′5.466″ S",
+        "southLatitude": "24°29′54.33″ S",
+        "westLongitude": "142°27′52.524″ E",
+        "eastLongitude": "154°0′3.6″ E"
+    },
     "versions": "https://data.csiro.au/dap/ws/v2/collections/53623/versions",
     "metadata": "https://data.csiro.au/dap/ws/v2/collections/53623/metadata",
     "data": "https://data.csiro.au/dap/ws/v2/collections/53623/data",

@@ -4,10 +4,10 @@ if(dataset?.spatialParameters?.projection !== "WGS84"){
     return {
         "spatialDataInputMethod": "bbox",
         "bbox": [
-            dataset?.spatialParameters?.projection?.westLongitude,
-            dataset?.spatialParameters?.projection?.southLatitude,
-            dataset?.spatialParameters?.projection?.eastLongitude,
-            dataset?.spatialParameters?.projection?.northLatitude
+            dataset?.spatialParameters?.westLongitude,
+            dataset?.spatialParameters?.southLatitude,
+            dataset?.spatialParameters?.eastLongitude,
+            dataset?.spatialParameters?.northLatitude
         ]
     };
 }

@@ -14,6 +14,17 @@ export interface CreateTransformerOptions {
     tenantId: number;
 }
 
+function getDateTimeString(str: any) {
+    if (!str || (typeof str !== "string" && typeof str !== "number")) {
+        return undefined;
+    }
+    const d = moment(str);
+    if(!d.isValid()){
+        return undefined;
+    }
+    return d.toDate().toJSON();
+}
+
 export default function createTransformer({
     name,
     id,
@@ -31,6 +42,7 @@ export default function createTransformer({
         tenantId: tenantId,
         libraries: {
             moment: moment,
+            getDateTimeString,
             URI: URI,
             dap: new DapUrlBuilder({
                 id: id,

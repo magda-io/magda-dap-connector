@@ -1,0 +1,69 @@
+{
+    "elapsedTime": 21,
+    "totalResults": "1",
+    "page": 1,
+    "resultsPerPage": 25,
+    "next": null,
+    "previous": null,
+    "first": null,
+    "last": null,
+    "query": "316L",
+    "showOnlyUnrestrictedData": false,
+    "sortBy": "RELEVANCE",
+    "complete": true,
+    "dataCollections": [
+        {
+            "id": {
+                "identifierType": "Fedora PID",
+                "identifier": "csiro:53623"
+            },
+            "dataCollectionId": 53623,
+            "self": "https://data.csiro.au/dap/ws/v2/collections/53623",
+            "landingPage": {
+                "relationship": "alternate",
+                "mediaType": "text/html",
+                "href": "https://data.csiro.au/collection/csiro:53623",
+                "fileUpload": false
+            },
+            "title": "Microstructure of a Commercial 316L Stainless-Steel Sample",
+            "description": "The sample used in this study was a commercial 316Lstainless-steel bar. The X-ray CT specimen was machined to a cylindrical shape with a length of 1cm and diameter of 2mm. The sample surface was polished by hand with a sandpaper.  The X-ray projection images of the specimen was acquired using a Sanying Precision Engineering nanoVoxel-3000H microfocus X-ray CT machine. The CT slices have been analyzed using the DCM software.",
+            "licence": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+            "licenceLink": {
+                "relationship": "license",
+                "mediaType": "text/html",
+                "href": "https://data.csiro.au/dap/ws/v2/licences/1141",
+                "fileUpload": false
+            },
+            "attributionStatement": "Yang, Sam; Wang, Haipeng; Wang, Jinxiu; Wang, Runhua; Li, Jianli; Liu, Rui (2022): Microstructure of a Commercial 316L Stainless-Steel Sample. v1. CSIRO. Data Collection. https://doi.org/10.25919/6hhb-7w51",
+            "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+            "published": "2022-01-21T10:13:55.735+11:00",
+            "spatialParameters": {
+                "projection": "WGS84",
+                "northLatitude": "-10.468185",
+                "southLatitude": "-24.498425",
+                "westLongitude": "142.46459",
+                "eastLongitude": "154.001"
+            },
+            "leadResearcher": "Sam Yang",
+            "contributors": [
+                "Haipeng Wang",
+                "Jinxiu Wang",
+                "Runhua Wang",
+                "Jianli Li",
+                "Rui Liu"
+            ],
+            "activity": {
+                "activityTitle": "DCM"
+            },
+            "collectionType": "Data",
+            "andsPid": "102.100.100/434906",
+            "doi": "10.25919/6hhb-7w51",
+            "project": {
+                "irpHierarchy": true,
+                "wbs": "R-16619",
+                "projectDescription": "Porosity defect characterization for AM metal parts"
+            },
+            "dataRestricted": "FALSE"
+        }
+    ]
+}

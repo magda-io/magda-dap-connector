@@ -1,4 +1,4 @@
-const moment = libraries.moment;
+const getDateTimeString = libraries.getDateTimeString;
 const dap = libraries.dap;
 // The `dataset` object is available in the scope
 // dataset structure see `CollectionResponse` in src/DapTypes
@@ -7,9 +7,7 @@ return {
     description: `${dataset?.description ? dataset.description + "\n\n" : ""}${
         dataset?.access ? dataset.access + "\n\n" : ""
     }`,
-    issued: dataset.published
-        ? moment.utc(dataset.published).format()
-        : undefined,
+    issued: getDateTimeString(dataset?.published),
     modified: undefined,
     languages: ["English"],
     publisher:

@@ -1,0 +1,2407 @@
+[
+    {
+      "id": "org-dap-CSIRO",
+      "name": "The Commonwealth Scientific and Industrial Research Organisation",
+      "aspects": {
+        "source": {
+          "type": "dap-organization",
+          "url": "https://data.csiro.au",
+          "id": "dap",
+          "name": "CSIRO"
+        },
+        "organization-details": {
+          "name": "The Commonwealth Scientific and Industrial Research Organisation",
+          "identifier": "CSIRO",
+          "title": "The Commonwealth Scientific and Industrial Research Organisation",
+          "description": "The Commonwealth Scientific and Industrial Research Organisation (CSIRO) is Australia's national science agency and one of the largest and most diverse research agencies in the world. The CSIRO Data Access Portal provides access to research data, software and other digital assets published by CSIRO across a range of disciplines. The portal is maintained by CSIRO Information Management & Technology to facilitate sharing and reuse.",
+          "imageUrl": "https://data.csiro.au/dap/resources-2.6.6/images/csiro_logo.png",
+          "phone": "1300 363 400",
+          "email": "CSIROEnquiries@csiro.au",
+          "website": "https://data.csiro.au/"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13380861",
+      "name": "CT_Slices/ID-SS316L-0h0300.tif",
+      "aspects": {
+        "dap-resource": {
+          "id": 13380861,
+          "filename": "CT_Slices/ID-SS316L-0h0300.tif",
+          "lastUpdated": "2022-01-19T10:30:26.000+11:00",
+          "fileSize": 4000191,
+          "link": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13380861",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9DVF9TbGljZXNcL0lELVNTMzE2TC0waDAzMDAudGlmIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMX0.hgHXKTmMRoTE2FOfgZZzVF83JAHbRmqHN259HMFfi6s",
+            "fileUpload": false
+          },
+          "parameters": [
+            {
+              "name": "Description",
+              "value": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "units": null,
+              "stringValue": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Title",
+              "value": "ID-SS316L-0h0300.tif",
+              "units": null,
+              "stringValue": "ID-SS316L-0h0300.tif",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Creator",
+              "value": "Sam Yang",
+              "units": null,
+              "stringValue": "Sam Yang",
+              "numericValue": null,
+              "dateValue": null
+            }
+          ],
+          "smallThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/SMALL?path=/CT_Slices/ID-SS316L-0h0300.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwMC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.v_JxM4uxL4HiYgaEaldgZykIAWHHO_2R79CKfmfxJiE",
+          "mediumThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/MEDIUM?path=/CT_Slices/ID-SS316L-0h0300.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwMC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.v_JxM4uxL4HiYgaEaldgZykIAWHHO_2R79CKfmfxJiE",
+          "largeThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/LARGE?path=/CT_Slices/ID-SS316L-0h0300.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwMC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.v_JxM4uxL4HiYgaEaldgZykIAWHHO_2R79CKfmfxJiE",
+          "fullThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/FULL?path=/CT_Slices/ID-SS316L-0h0300.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwMC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.v_JxM4uxL4HiYgaEaldgZykIAWHHO_2R79CKfmfxJiE",
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "CT_Slices/ID-SS316L-0h0300.tif",
+          "issued": "",
+          "modified": "2022-01-18T23:30:26.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 4000191,
+          "mediaType": "image/tiff",
+          "format": "image/tiff"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13380861",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13381115",
+      "name": "CT_Slices/ID-SS316L-0h0301.tif",
+      "aspects": {
+        "dap-resource": {
+          "id": 13381115,
+          "filename": "CT_Slices/ID-SS316L-0h0301.tif",
+          "lastUpdated": "2022-01-19T10:33:17.000+11:00",
+          "fileSize": 4000191,
+          "link": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13381115",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9DVF9TbGljZXNcL0lELVNTMzE2TC0waDAzMDEudGlmIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMX0.plA1aSMhLhsGOlWfFnPNMb1kIhuzoJaqsk1lN4fbjCk",
+            "fileUpload": false
+          },
+          "parameters": [
+            {
+              "name": "Description",
+              "value": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "units": null,
+              "stringValue": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Title",
+              "value": "ID-SS316L-0h0301.tif",
+              "units": null,
+              "stringValue": "ID-SS316L-0h0301.tif",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Creator",
+              "value": "Sam Yang",
+              "units": null,
+              "stringValue": "Sam Yang",
+              "numericValue": null,
+              "dateValue": null
+            }
+          ],
+          "smallThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/SMALL?path=/CT_Slices/ID-SS316L-0h0301.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwMS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.T348Goz5J1EwWKVnLpoEPNiHGclonEDekIpV310HIDE",
+          "mediumThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/MEDIUM?path=/CT_Slices/ID-SS316L-0h0301.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwMS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.T348Goz5J1EwWKVnLpoEPNiHGclonEDekIpV310HIDE",
+          "largeThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/LARGE?path=/CT_Slices/ID-SS316L-0h0301.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwMS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.T348Goz5J1EwWKVnLpoEPNiHGclonEDekIpV310HIDE",
+          "fullThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/FULL?path=/CT_Slices/ID-SS316L-0h0301.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwMS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.T348Goz5J1EwWKVnLpoEPNiHGclonEDekIpV310HIDE",
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "CT_Slices/ID-SS316L-0h0301.tif",
+          "issued": "",
+          "modified": "2022-01-18T23:33:17.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 4000191,
+          "mediaType": "image/tiff",
+          "format": "image/tiff"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13381115",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13380619",
+      "name": "CT_Slices/ID-SS316L-0h0302.tif",
+      "aspects": {
+        "dap-resource": {
+          "id": 13380619,
+          "filename": "CT_Slices/ID-SS316L-0h0302.tif",
+          "lastUpdated": "2022-01-19T10:27:25.000+11:00",
+          "fileSize": 4000191,
+          "link": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13380619",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9DVF9TbGljZXNcL0lELVNTMzE2TC0waDAzMDIudGlmIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMX0.NEas1m4XGlAuNlM7aTFfySTehv-rH908SIEgLPl86as",
+            "fileUpload": false
+          },
+          "parameters": [
+            {
+              "name": "Description",
+              "value": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "units": null,
+              "stringValue": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Title",
+              "value": "ID-SS316L-0h0302.tif",
+              "units": null,
+              "stringValue": "ID-SS316L-0h0302.tif",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Creator",
+              "value": "Sam Yang",
+              "units": null,
+              "stringValue": "Sam Yang",
+              "numericValue": null,
+              "dateValue": null
+            }
+          ],
+          "smallThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/SMALL?path=/CT_Slices/ID-SS316L-0h0302.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwMi50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.kZQ62Up467GlehoOP0WMtq7fIw6xPyVN7F9WOkeV0jw",
+          "mediumThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/MEDIUM?path=/CT_Slices/ID-SS316L-0h0302.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwMi50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.kZQ62Up467GlehoOP0WMtq7fIw6xPyVN7F9WOkeV0jw",
+          "largeThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/LARGE?path=/CT_Slices/ID-SS316L-0h0302.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwMi50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.kZQ62Up467GlehoOP0WMtq7fIw6xPyVN7F9WOkeV0jw",
+          "fullThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/FULL?path=/CT_Slices/ID-SS316L-0h0302.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwMi50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.kZQ62Up467GlehoOP0WMtq7fIw6xPyVN7F9WOkeV0jw",
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "CT_Slices/ID-SS316L-0h0302.tif",
+          "issued": "",
+          "modified": "2022-01-18T23:27:25.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 4000191,
+          "mediaType": "image/tiff",
+          "format": "image/tiff"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13380619",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13381143",
+      "name": "CT_Slices/ID-SS316L-0h0303.tif",
+      "aspects": {
+        "dap-resource": {
+          "id": 13381143,
+          "filename": "CT_Slices/ID-SS316L-0h0303.tif",
+          "lastUpdated": "2022-01-19T10:33:35.000+11:00",
+          "fileSize": 4000191,
+          "link": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13381143",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9DVF9TbGljZXNcL0lELVNTMzE2TC0waDAzMDMudGlmIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMX0.JDnw3C66jBOmDvRX-r8A7Upqs-u0ZonvR2olcq0V0kI",
+            "fileUpload": false
+          },
+          "parameters": [
+            {
+              "name": "Description",
+              "value": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "units": null,
+              "stringValue": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Title",
+              "value": "ID-SS316L-0h0303.tif",
+              "units": null,
+              "stringValue": "ID-SS316L-0h0303.tif",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Creator",
+              "value": "Sam Yang",
+              "units": null,
+              "stringValue": "Sam Yang",
+              "numericValue": null,
+              "dateValue": null
+            }
+          ],
+          "smallThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/SMALL?path=/CT_Slices/ID-SS316L-0h0303.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwMy50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.Hi_TF4bOSARcySELxiXi8qknPb26WWs8jmdiUQ0_gGU",
+          "mediumThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/MEDIUM?path=/CT_Slices/ID-SS316L-0h0303.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwMy50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.Hi_TF4bOSARcySELxiXi8qknPb26WWs8jmdiUQ0_gGU",
+          "largeThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/LARGE?path=/CT_Slices/ID-SS316L-0h0303.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwMy50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.Hi_TF4bOSARcySELxiXi8qknPb26WWs8jmdiUQ0_gGU",
+          "fullThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/FULL?path=/CT_Slices/ID-SS316L-0h0303.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwMy50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.Hi_TF4bOSARcySELxiXi8qknPb26WWs8jmdiUQ0_gGU",
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "CT_Slices/ID-SS316L-0h0303.tif",
+          "issued": "",
+          "modified": "2022-01-18T23:33:35.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 4000191,
+          "mediaType": "image/tiff",
+          "format": "image/tiff"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13381143",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13381567",
+      "name": "CT_Slices/ID-SS316L-0h0304.tif",
+      "aspects": {
+        "dap-resource": {
+          "id": 13381567,
+          "filename": "CT_Slices/ID-SS316L-0h0304.tif",
+          "lastUpdated": "2022-01-19T10:37:02.000+11:00",
+          "fileSize": 4000191,
+          "link": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13381567",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9DVF9TbGljZXNcL0lELVNTMzE2TC0waDAzMDQudGlmIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMX0.kwHhZAJJsd25hEdHK9k9T5wt6KtDymDkpdC7-nZ-9F4",
+            "fileUpload": false
+          },
+          "parameters": [
+            {
+              "name": "Description",
+              "value": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "units": null,
+              "stringValue": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Title",
+              "value": "ID-SS316L-0h0304.tif",
+              "units": null,
+              "stringValue": "ID-SS316L-0h0304.tif",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Creator",
+              "value": "Sam Yang",
+              "units": null,
+              "stringValue": "Sam Yang",
+              "numericValue": null,
+              "dateValue": null
+            }
+          ],
+          "smallThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/SMALL?path=/CT_Slices/ID-SS316L-0h0304.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwNC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.kG5MIkbPoYQvPQNzcMY1Z_qUHAipN_q_pouMefMLZOc",
+          "mediumThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/MEDIUM?path=/CT_Slices/ID-SS316L-0h0304.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwNC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.kG5MIkbPoYQvPQNzcMY1Z_qUHAipN_q_pouMefMLZOc",
+          "largeThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/LARGE?path=/CT_Slices/ID-SS316L-0h0304.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwNC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.kG5MIkbPoYQvPQNzcMY1Z_qUHAipN_q_pouMefMLZOc",
+          "fullThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/FULL?path=/CT_Slices/ID-SS316L-0h0304.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwNC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.kG5MIkbPoYQvPQNzcMY1Z_qUHAipN_q_pouMefMLZOc",
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "CT_Slices/ID-SS316L-0h0304.tif",
+          "issued": "",
+          "modified": "2022-01-18T23:37:02.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 4000191,
+          "mediaType": "image/tiff",
+          "format": "image/tiff"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13381567",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13381406",
+      "name": "CT_Slices/ID-SS316L-0h0305.tif",
+      "aspects": {
+        "dap-resource": {
+          "id": 13381406,
+          "filename": "CT_Slices/ID-SS316L-0h0305.tif",
+          "lastUpdated": "2022-01-19T10:36:02.000+11:00",
+          "fileSize": 4000191,
+          "link": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13381406",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9DVF9TbGljZXNcL0lELVNTMzE2TC0waDAzMDUudGlmIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMX0.l1Ui0XNr1iLsJnUIm9lb5mbKiqj2GaCpd2M0ryYuWnA",
+            "fileUpload": false
+          },
+          "parameters": [
+            {
+              "name": "Description",
+              "value": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "units": null,
+              "stringValue": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Title",
+              "value": "ID-SS316L-0h0305.tif",
+              "units": null,
+              "stringValue": "ID-SS316L-0h0305.tif",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Creator",
+              "value": "Sam Yang",
+              "units": null,
+              "stringValue": "Sam Yang",
+              "numericValue": null,
+              "dateValue": null
+            }
+          ],
+          "smallThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/SMALL?path=/CT_Slices/ID-SS316L-0h0305.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwNS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.hwBadeuw5L6xQLFVz-pBPti6WAIrKa32SB-4F79-xBg",
+          "mediumThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/MEDIUM?path=/CT_Slices/ID-SS316L-0h0305.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwNS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.hwBadeuw5L6xQLFVz-pBPti6WAIrKa32SB-4F79-xBg",
+          "largeThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/LARGE?path=/CT_Slices/ID-SS316L-0h0305.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwNS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.hwBadeuw5L6xQLFVz-pBPti6WAIrKa32SB-4F79-xBg",
+          "fullThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/FULL?path=/CT_Slices/ID-SS316L-0h0305.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwNS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.hwBadeuw5L6xQLFVz-pBPti6WAIrKa32SB-4F79-xBg",
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "CT_Slices/ID-SS316L-0h0305.tif",
+          "issued": "",
+          "modified": "2022-01-18T23:36:02.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 4000191,
+          "mediaType": "image/tiff",
+          "format": "image/tiff"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13381406",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13381147",
+      "name": "CT_Slices/ID-SS316L-0h0306.tif",
+      "aspects": {
+        "dap-resource": {
+          "id": 13381147,
+          "filename": "CT_Slices/ID-SS316L-0h0306.tif",
+          "lastUpdated": "2022-01-19T10:33:38.000+11:00",
+          "fileSize": 4000191,
+          "link": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13381147",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9DVF9TbGljZXNcL0lELVNTMzE2TC0waDAzMDYudGlmIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMX0.x6hgf8nrZrfMPZIoSfWfPw6gImcrzhlEfi-OMpWvQug",
+            "fileUpload": false
+          },
+          "parameters": [
+            {
+              "name": "Description",
+              "value": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "units": null,
+              "stringValue": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Title",
+              "value": "ID-SS316L-0h0306.tif",
+              "units": null,
+              "stringValue": "ID-SS316L-0h0306.tif",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Creator",
+              "value": "Sam Yang",
+              "units": null,
+              "stringValue": "Sam Yang",
+              "numericValue": null,
+              "dateValue": null
+            }
+          ],
+          "smallThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/SMALL?path=/CT_Slices/ID-SS316L-0h0306.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwNi50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.y28GtfAPlrMV7ZPOl2v1K_EjI6eBG-XuS29dnmedw7M",
+          "mediumThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/MEDIUM?path=/CT_Slices/ID-SS316L-0h0306.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwNi50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.y28GtfAPlrMV7ZPOl2v1K_EjI6eBG-XuS29dnmedw7M",
+          "largeThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/LARGE?path=/CT_Slices/ID-SS316L-0h0306.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwNi50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.y28GtfAPlrMV7ZPOl2v1K_EjI6eBG-XuS29dnmedw7M",
+          "fullThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/FULL?path=/CT_Slices/ID-SS316L-0h0306.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwNi50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.y28GtfAPlrMV7ZPOl2v1K_EjI6eBG-XuS29dnmedw7M",
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "CT_Slices/ID-SS316L-0h0306.tif",
+          "issued": "",
+          "modified": "2022-01-18T23:33:38.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 4000191,
+          "mediaType": "image/tiff",
+          "format": "image/tiff"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13381147",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13380754",
+      "name": "CT_Slices/ID-SS316L-0h0307.tif",
+      "aspects": {
+        "dap-resource": {
+          "id": 13380754,
+          "filename": "CT_Slices/ID-SS316L-0h0307.tif",
+          "lastUpdated": "2022-01-19T10:29:03.000+11:00",
+          "fileSize": 4000191,
+          "link": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13380754",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9DVF9TbGljZXNcL0lELVNTMzE2TC0waDAzMDcudGlmIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMX0.AZtGD6ESTDXZT7rzbaVmehju-MTt7HwfXqZ14TeIkNk",
+            "fileUpload": false
+          },
+          "parameters": [
+            {
+              "name": "Description",
+              "value": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "units": null,
+              "stringValue": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Title",
+              "value": "ID-SS316L-0h0307.tif",
+              "units": null,
+              "stringValue": "ID-SS316L-0h0307.tif",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Creator",
+              "value": "Sam Yang",
+              "units": null,
+              "stringValue": "Sam Yang",
+              "numericValue": null,
+              "dateValue": null
+            }
+          ],
+          "smallThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/SMALL?path=/CT_Slices/ID-SS316L-0h0307.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwNy50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.x9UsHfwSzVaWYA_ijrNWqw_R2sVJowWcaqfN0H0xb5E",
+          "mediumThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/MEDIUM?path=/CT_Slices/ID-SS316L-0h0307.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwNy50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.x9UsHfwSzVaWYA_ijrNWqw_R2sVJowWcaqfN0H0xb5E",
+          "largeThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/LARGE?path=/CT_Slices/ID-SS316L-0h0307.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwNy50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.x9UsHfwSzVaWYA_ijrNWqw_R2sVJowWcaqfN0H0xb5E",
+          "fullThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/FULL?path=/CT_Slices/ID-SS316L-0h0307.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwNy50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.x9UsHfwSzVaWYA_ijrNWqw_R2sVJowWcaqfN0H0xb5E",
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "CT_Slices/ID-SS316L-0h0307.tif",
+          "issued": "",
+          "modified": "2022-01-18T23:29:03.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 4000191,
+          "mediaType": "image/tiff",
+          "format": "image/tiff"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13380754",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13381291",
+      "name": "CT_Slices/ID-SS316L-0h0308.tif",
+      "aspects": {
+        "dap-resource": {
+          "id": 13381291,
+          "filename": "CT_Slices/ID-SS316L-0h0308.tif",
+          "lastUpdated": "2022-01-19T10:35:22.000+11:00",
+          "fileSize": 4000191,
+          "link": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13381291",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9DVF9TbGljZXNcL0lELVNTMzE2TC0waDAzMDgudGlmIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMX0.I0tuZmcmji3Lqd3E7byemFZpMm8rdUxICaVzV8Y7yFU",
+            "fileUpload": false
+          },
+          "parameters": [
+            {
+              "name": "Description",
+              "value": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "units": null,
+              "stringValue": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Title",
+              "value": "ID-SS316L-0h0308.tif",
+              "units": null,
+              "stringValue": "ID-SS316L-0h0308.tif",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Creator",
+              "value": "Sam Yang",
+              "units": null,
+              "stringValue": "Sam Yang",
+              "numericValue": null,
+              "dateValue": null
+            }
+          ],
+          "smallThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/SMALL?path=/CT_Slices/ID-SS316L-0h0308.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwOC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.gOPyi9R2xna59IL-9sXJhPryGIj17m78rxJ0dfqVSrM",
+          "mediumThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/MEDIUM?path=/CT_Slices/ID-SS316L-0h0308.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwOC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.gOPyi9R2xna59IL-9sXJhPryGIj17m78rxJ0dfqVSrM",
+          "largeThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/LARGE?path=/CT_Slices/ID-SS316L-0h0308.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwOC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.gOPyi9R2xna59IL-9sXJhPryGIj17m78rxJ0dfqVSrM",
+          "fullThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/FULL?path=/CT_Slices/ID-SS316L-0h0308.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwOC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.gOPyi9R2xna59IL-9sXJhPryGIj17m78rxJ0dfqVSrM",
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "CT_Slices/ID-SS316L-0h0308.tif",
+          "issued": "",
+          "modified": "2022-01-18T23:35:22.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 4000191,
+          "mediaType": "image/tiff",
+          "format": "image/tiff"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13381291",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13381317",
+      "name": "CT_Slices/ID-SS316L-0h0309.tif",
+      "aspects": {
+        "dap-resource": {
+          "id": 13381317,
+          "filename": "CT_Slices/ID-SS316L-0h0309.tif",
+          "lastUpdated": "2022-01-19T10:35:32.000+11:00",
+          "fileSize": 4000191,
+          "link": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13381317",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9DVF9TbGljZXNcL0lELVNTMzE2TC0waDAzMDkudGlmIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMX0.vIlfiGfBSAgQ4nBImTDWmu3KVSfvfb9Df-VNx1mvOig",
+            "fileUpload": false
+          },
+          "parameters": [
+            {
+              "name": "Description",
+              "value": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "units": null,
+              "stringValue": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Title",
+              "value": "ID-SS316L-0h0309.tif",
+              "units": null,
+              "stringValue": "ID-SS316L-0h0309.tif",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Creator",
+              "value": "Sam Yang",
+              "units": null,
+              "stringValue": "Sam Yang",
+              "numericValue": null,
+              "dateValue": null
+            }
+          ],
+          "smallThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/SMALL?path=/CT_Slices/ID-SS316L-0h0309.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwOS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.AdzYwqfjycZefPEJm84kBdrdqi2-Yb_qg_aKqHb252Q",
+          "mediumThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/MEDIUM?path=/CT_Slices/ID-SS316L-0h0309.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwOS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.AdzYwqfjycZefPEJm84kBdrdqi2-Yb_qg_aKqHb252Q",
+          "largeThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/LARGE?path=/CT_Slices/ID-SS316L-0h0309.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwOS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.AdzYwqfjycZefPEJm84kBdrdqi2-Yb_qg_aKqHb252Q",
+          "fullThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/FULL?path=/CT_Slices/ID-SS316L-0h0309.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMwOS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.AdzYwqfjycZefPEJm84kBdrdqi2-Yb_qg_aKqHb252Q",
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "CT_Slices/ID-SS316L-0h0309.tif",
+          "issued": "",
+          "modified": "2022-01-18T23:35:32.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 4000191,
+          "mediaType": "image/tiff",
+          "format": "image/tiff"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13381317",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13380620",
+      "name": "CT_Slices/ID-SS316L-0h0310.tif",
+      "aspects": {
+        "dap-resource": {
+          "id": 13380620,
+          "filename": "CT_Slices/ID-SS316L-0h0310.tif",
+          "lastUpdated": "2022-01-19T10:27:26.000+11:00",
+          "fileSize": 4000191,
+          "link": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13380620",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9DVF9TbGljZXNcL0lELVNTMzE2TC0waDAzMTAudGlmIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMX0.aEbfVRhJ1p9ZtpkowrIvbRlk_KfzgIPh0mtmgxP6vw8",
+            "fileUpload": false
+          },
+          "parameters": [
+            {
+              "name": "Description",
+              "value": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "units": null,
+              "stringValue": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Title",
+              "value": "ID-SS316L-0h0310.tif",
+              "units": null,
+              "stringValue": "ID-SS316L-0h0310.tif",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Creator",
+              "value": "Sam Yang",
+              "units": null,
+              "stringValue": "Sam Yang",
+              "numericValue": null,
+              "dateValue": null
+            }
+          ],
+          "smallThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/SMALL?path=/CT_Slices/ID-SS316L-0h0310.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxMC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.JFHviU3ovEQVVYN0AcCZENcqijs_PyW5XUDFt-QbRRw",
+          "mediumThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/MEDIUM?path=/CT_Slices/ID-SS316L-0h0310.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxMC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.JFHviU3ovEQVVYN0AcCZENcqijs_PyW5XUDFt-QbRRw",
+          "largeThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/LARGE?path=/CT_Slices/ID-SS316L-0h0310.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxMC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.JFHviU3ovEQVVYN0AcCZENcqijs_PyW5XUDFt-QbRRw",
+          "fullThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/FULL?path=/CT_Slices/ID-SS316L-0h0310.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxMC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.JFHviU3ovEQVVYN0AcCZENcqijs_PyW5XUDFt-QbRRw",
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "CT_Slices/ID-SS316L-0h0310.tif",
+          "issued": "",
+          "modified": "2022-01-18T23:27:26.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 4000191,
+          "mediaType": "image/tiff",
+          "format": "image/tiff"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13380620",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13381152",
+      "name": "CT_Slices/ID-SS316L-0h0311.tif",
+      "aspects": {
+        "dap-resource": {
+          "id": 13381152,
+          "filename": "CT_Slices/ID-SS316L-0h0311.tif",
+          "lastUpdated": "2022-01-19T10:33:41.000+11:00",
+          "fileSize": 4000191,
+          "link": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13381152",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9DVF9TbGljZXNcL0lELVNTMzE2TC0waDAzMTEudGlmIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMX0._mWMzVZwLNCSLEgmuCO_PzveLmI0IoW5JaK-Ztd_3FU",
+            "fileUpload": false
+          },
+          "parameters": [
+            {
+              "name": "Description",
+              "value": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "units": null,
+              "stringValue": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Title",
+              "value": "ID-SS316L-0h0311.tif",
+              "units": null,
+              "stringValue": "ID-SS316L-0h0311.tif",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Creator",
+              "value": "Sam Yang",
+              "units": null,
+              "stringValue": "Sam Yang",
+              "numericValue": null,
+              "dateValue": null
+            }
+          ],
+          "smallThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/SMALL?path=/CT_Slices/ID-SS316L-0h0311.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxMS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0._QA1OkET7k7Sup-g5H294m3V-8h6Tq4Hf3QpGpLt00w",
+          "mediumThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/MEDIUM?path=/CT_Slices/ID-SS316L-0h0311.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxMS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0._QA1OkET7k7Sup-g5H294m3V-8h6Tq4Hf3QpGpLt00w",
+          "largeThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/LARGE?path=/CT_Slices/ID-SS316L-0h0311.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxMS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0._QA1OkET7k7Sup-g5H294m3V-8h6Tq4Hf3QpGpLt00w",
+          "fullThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/FULL?path=/CT_Slices/ID-SS316L-0h0311.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxMS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0._QA1OkET7k7Sup-g5H294m3V-8h6Tq4Hf3QpGpLt00w",
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "CT_Slices/ID-SS316L-0h0311.tif",
+          "issued": "",
+          "modified": "2022-01-18T23:33:41.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 4000191,
+          "mediaType": "image/tiff",
+          "format": "image/tiff"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13381152",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13381566",
+      "name": "CT_Slices/ID-SS316L-0h0312.tif",
+      "aspects": {
+        "dap-resource": {
+          "id": 13381566,
+          "filename": "CT_Slices/ID-SS316L-0h0312.tif",
+          "lastUpdated": "2022-01-19T10:37:01.000+11:00",
+          "fileSize": 4000191,
+          "link": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13381566",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9DVF9TbGljZXNcL0lELVNTMzE2TC0waDAzMTIudGlmIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMX0.IzP3FY4zSm1RhsB3usqQJMZSsLiP2L3-rQe0eL6YWOQ",
+            "fileUpload": false
+          },
+          "parameters": [
+            {
+              "name": "Description",
+              "value": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "units": null,
+              "stringValue": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Title",
+              "value": "ID-SS316L-0h0312.tif",
+              "units": null,
+              "stringValue": "ID-SS316L-0h0312.tif",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Creator",
+              "value": "Sam Yang",
+              "units": null,
+              "stringValue": "Sam Yang",
+              "numericValue": null,
+              "dateValue": null
+            }
+          ],
+          "smallThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/SMALL?path=/CT_Slices/ID-SS316L-0h0312.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxMi50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.uRmT_8FbwSXVuFP7Yg4wQ_UA6Xj2ZCni-8ZJuYEuIm4",
+          "mediumThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/MEDIUM?path=/CT_Slices/ID-SS316L-0h0312.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxMi50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.uRmT_8FbwSXVuFP7Yg4wQ_UA6Xj2ZCni-8ZJuYEuIm4",
+          "largeThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/LARGE?path=/CT_Slices/ID-SS316L-0h0312.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxMi50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.uRmT_8FbwSXVuFP7Yg4wQ_UA6Xj2ZCni-8ZJuYEuIm4",
+          "fullThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/FULL?path=/CT_Slices/ID-SS316L-0h0312.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxMi50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.uRmT_8FbwSXVuFP7Yg4wQ_UA6Xj2ZCni-8ZJuYEuIm4",
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "CT_Slices/ID-SS316L-0h0312.tif",
+          "issued": "",
+          "modified": "2022-01-18T23:37:01.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 4000191,
+          "mediaType": "image/tiff",
+          "format": "image/tiff"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13381566",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13381579",
+      "name": "CT_Slices/ID-SS316L-0h0313.tif",
+      "aspects": {
+        "dap-resource": {
+          "id": 13381579,
+          "filename": "CT_Slices/ID-SS316L-0h0313.tif",
+          "lastUpdated": "2022-01-19T10:37:05.000+11:00",
+          "fileSize": 4000191,
+          "link": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13381579",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9DVF9TbGljZXNcL0lELVNTMzE2TC0waDAzMTMudGlmIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMX0.ZGrZx8YXXarxwtWeCDZrbpoZE-T4FKGdxaFbqzMTeEg",
+            "fileUpload": false
+          },
+          "parameters": [
+            {
+              "name": "Description",
+              "value": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "units": null,
+              "stringValue": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Title",
+              "value": "ID-SS316L-0h0313.tif",
+              "units": null,
+              "stringValue": "ID-SS316L-0h0313.tif",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Creator",
+              "value": "Sam Yang",
+              "units": null,
+              "stringValue": "Sam Yang",
+              "numericValue": null,
+              "dateValue": null
+            }
+          ],
+          "smallThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/SMALL?path=/CT_Slices/ID-SS316L-0h0313.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxMy50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.SmEdTAMzkUViIAnJqZLPoNwO8MVKHt_kA7BLN9vq888",
+          "mediumThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/MEDIUM?path=/CT_Slices/ID-SS316L-0h0313.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxMy50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.SmEdTAMzkUViIAnJqZLPoNwO8MVKHt_kA7BLN9vq888",
+          "largeThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/LARGE?path=/CT_Slices/ID-SS316L-0h0313.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxMy50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.SmEdTAMzkUViIAnJqZLPoNwO8MVKHt_kA7BLN9vq888",
+          "fullThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/FULL?path=/CT_Slices/ID-SS316L-0h0313.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxMy50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.SmEdTAMzkUViIAnJqZLPoNwO8MVKHt_kA7BLN9vq888",
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "CT_Slices/ID-SS316L-0h0313.tif",
+          "issued": "",
+          "modified": "2022-01-18T23:37:05.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 4000191,
+          "mediaType": "image/tiff",
+          "format": "image/tiff"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13381579",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13381319",
+      "name": "CT_Slices/ID-SS316L-0h0314.tif",
+      "aspects": {
+        "dap-resource": {
+          "id": 13381319,
+          "filename": "CT_Slices/ID-SS316L-0h0314.tif",
+          "lastUpdated": "2022-01-19T10:35:32.000+11:00",
+          "fileSize": 4000191,
+          "link": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13381319",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9DVF9TbGljZXNcL0lELVNTMzE2TC0waDAzMTQudGlmIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMX0.vmIuT1TOCl4Zg2N3_9IUdutlQ_ZXYD7-ath_LYQdzfE",
+            "fileUpload": false
+          },
+          "parameters": [
+            {
+              "name": "Description",
+              "value": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "units": null,
+              "stringValue": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Title",
+              "value": "ID-SS316L-0h0314.tif",
+              "units": null,
+              "stringValue": "ID-SS316L-0h0314.tif",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Creator",
+              "value": "Sam Yang",
+              "units": null,
+              "stringValue": "Sam Yang",
+              "numericValue": null,
+              "dateValue": null
+            }
+          ],
+          "smallThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/SMALL?path=/CT_Slices/ID-SS316L-0h0314.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxNC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.ZLCx3KJTlHz6WXk5DFAOl3tZEnRud6GEzyDZiQSM130",
+          "mediumThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/MEDIUM?path=/CT_Slices/ID-SS316L-0h0314.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxNC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.ZLCx3KJTlHz6WXk5DFAOl3tZEnRud6GEzyDZiQSM130",
+          "largeThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/LARGE?path=/CT_Slices/ID-SS316L-0h0314.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxNC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.ZLCx3KJTlHz6WXk5DFAOl3tZEnRud6GEzyDZiQSM130",
+          "fullThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/FULL?path=/CT_Slices/ID-SS316L-0h0314.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxNC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.ZLCx3KJTlHz6WXk5DFAOl3tZEnRud6GEzyDZiQSM130",
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "CT_Slices/ID-SS316L-0h0314.tif",
+          "issued": "",
+          "modified": "2022-01-18T23:35:32.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 4000191,
+          "mediaType": "image/tiff",
+          "format": "image/tiff"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13381319",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13381264",
+      "name": "CT_Slices/ID-SS316L-0h0315.tif",
+      "aspects": {
+        "dap-resource": {
+          "id": 13381264,
+          "filename": "CT_Slices/ID-SS316L-0h0315.tif",
+          "lastUpdated": "2022-01-19T10:35:01.000+11:00",
+          "fileSize": 4000191,
+          "link": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13381264",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9DVF9TbGljZXNcL0lELVNTMzE2TC0waDAzMTUudGlmIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMX0.4uz8dV8CMCUimyFnmhGhGXL2N8K4PKTeB16ydAMIkJ8",
+            "fileUpload": false
+          },
+          "parameters": [
+            {
+              "name": "Description",
+              "value": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "units": null,
+              "stringValue": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Title",
+              "value": "ID-SS316L-0h0315.tif",
+              "units": null,
+              "stringValue": "ID-SS316L-0h0315.tif",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Creator",
+              "value": "Sam Yang",
+              "units": null,
+              "stringValue": "Sam Yang",
+              "numericValue": null,
+              "dateValue": null
+            }
+          ],
+          "smallThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/SMALL?path=/CT_Slices/ID-SS316L-0h0315.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxNS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.BxHBxtThbskylouaTghmX3olyJ9H10HndCtuJgaZALs",
+          "mediumThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/MEDIUM?path=/CT_Slices/ID-SS316L-0h0315.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxNS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.BxHBxtThbskylouaTghmX3olyJ9H10HndCtuJgaZALs",
+          "largeThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/LARGE?path=/CT_Slices/ID-SS316L-0h0315.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxNS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.BxHBxtThbskylouaTghmX3olyJ9H10HndCtuJgaZALs",
+          "fullThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/FULL?path=/CT_Slices/ID-SS316L-0h0315.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxNS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.BxHBxtThbskylouaTghmX3olyJ9H10HndCtuJgaZALs",
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "CT_Slices/ID-SS316L-0h0315.tif",
+          "issued": "",
+          "modified": "2022-01-18T23:35:01.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 4000191,
+          "mediaType": "image/tiff",
+          "format": "image/tiff"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13381264",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13380621",
+      "name": "CT_Slices/ID-SS316L-0h0316.tif",
+      "aspects": {
+        "dap-resource": {
+          "id": 13380621,
+          "filename": "CT_Slices/ID-SS316L-0h0316.tif",
+          "lastUpdated": "2022-01-19T10:27:27.000+11:00",
+          "fileSize": 4000191,
+          "link": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13380621",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9DVF9TbGljZXNcL0lELVNTMzE2TC0waDAzMTYudGlmIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMX0.3EMhU4uzAXUgRorBeD0Ai_QSm24Z6_ZbeijTXvjNVC0",
+            "fileUpload": false
+          },
+          "parameters": [
+            {
+              "name": "Description",
+              "value": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "units": null,
+              "stringValue": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Title",
+              "value": "ID-SS316L-0h0316.tif",
+              "units": null,
+              "stringValue": "ID-SS316L-0h0316.tif",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Creator",
+              "value": "Sam Yang",
+              "units": null,
+              "stringValue": "Sam Yang",
+              "numericValue": null,
+              "dateValue": null
+            }
+          ],
+          "smallThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/SMALL?path=/CT_Slices/ID-SS316L-0h0316.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxNi50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.Q3oyXMiRuVcSdQBSM-CpOquMd8E33HdvaPttE-ek3RA",
+          "mediumThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/MEDIUM?path=/CT_Slices/ID-SS316L-0h0316.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxNi50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.Q3oyXMiRuVcSdQBSM-CpOquMd8E33HdvaPttE-ek3RA",
+          "largeThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/LARGE?path=/CT_Slices/ID-SS316L-0h0316.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxNi50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.Q3oyXMiRuVcSdQBSM-CpOquMd8E33HdvaPttE-ek3RA",
+          "fullThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/FULL?path=/CT_Slices/ID-SS316L-0h0316.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxNi50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.Q3oyXMiRuVcSdQBSM-CpOquMd8E33HdvaPttE-ek3RA",
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "CT_Slices/ID-SS316L-0h0316.tif",
+          "issued": "",
+          "modified": "2022-01-18T23:27:27.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 4000191,
+          "mediaType": "image/tiff",
+          "format": "image/tiff"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13380621",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13381453",
+      "name": "CT_Slices/ID-SS316L-0h0317.tif",
+      "aspects": {
+        "dap-resource": {
+          "id": 13381453,
+          "filename": "CT_Slices/ID-SS316L-0h0317.tif",
+          "lastUpdated": "2022-01-19T10:36:19.000+11:00",
+          "fileSize": 4000191,
+          "link": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13381453",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9DVF9TbGljZXNcL0lELVNTMzE2TC0waDAzMTcudGlmIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMX0.ybm_JtSsWxwoXJ99BkFSO8fYZj1mcEZugmF3zppZm_o",
+            "fileUpload": false
+          },
+          "parameters": [
+            {
+              "name": "Description",
+              "value": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "units": null,
+              "stringValue": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Title",
+              "value": "ID-SS316L-0h0317.tif",
+              "units": null,
+              "stringValue": "ID-SS316L-0h0317.tif",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Creator",
+              "value": "Sam Yang",
+              "units": null,
+              "stringValue": "Sam Yang",
+              "numericValue": null,
+              "dateValue": null
+            }
+          ],
+          "smallThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/SMALL?path=/CT_Slices/ID-SS316L-0h0317.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxNy50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.rCCTy_JkDOPcm6h3_n57qwC1yUo_yJt5pcl4zUj74MI",
+          "mediumThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/MEDIUM?path=/CT_Slices/ID-SS316L-0h0317.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxNy50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.rCCTy_JkDOPcm6h3_n57qwC1yUo_yJt5pcl4zUj74MI",
+          "largeThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/LARGE?path=/CT_Slices/ID-SS316L-0h0317.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxNy50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.rCCTy_JkDOPcm6h3_n57qwC1yUo_yJt5pcl4zUj74MI",
+          "fullThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/FULL?path=/CT_Slices/ID-SS316L-0h0317.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxNy50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.rCCTy_JkDOPcm6h3_n57qwC1yUo_yJt5pcl4zUj74MI",
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "CT_Slices/ID-SS316L-0h0317.tif",
+          "issued": "",
+          "modified": "2022-01-18T23:36:19.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 4000191,
+          "mediaType": "image/tiff",
+          "format": "image/tiff"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13381453",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13381137",
+      "name": "CT_Slices/ID-SS316L-0h0318.tif",
+      "aspects": {
+        "dap-resource": {
+          "id": 13381137,
+          "filename": "CT_Slices/ID-SS316L-0h0318.tif",
+          "lastUpdated": "2022-01-19T10:33:31.000+11:00",
+          "fileSize": 4000191,
+          "link": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13381137",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9DVF9TbGljZXNcL0lELVNTMzE2TC0waDAzMTgudGlmIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMX0.XITXe9ueX9kD13J0tV9NZ76aj8l2rRG50-Odn7OxwOA",
+            "fileUpload": false
+          },
+          "parameters": [
+            {
+              "name": "Description",
+              "value": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "units": null,
+              "stringValue": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Title",
+              "value": "ID-SS316L-0h0318.tif",
+              "units": null,
+              "stringValue": "ID-SS316L-0h0318.tif",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Creator",
+              "value": "Sam Yang",
+              "units": null,
+              "stringValue": "Sam Yang",
+              "numericValue": null,
+              "dateValue": null
+            }
+          ],
+          "smallThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/SMALL?path=/CT_Slices/ID-SS316L-0h0318.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxOC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.7ZUTfc8ugrlHzRqpeF_bAArSIx8Z1GzZVRLHCDRWSGM",
+          "mediumThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/MEDIUM?path=/CT_Slices/ID-SS316L-0h0318.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxOC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.7ZUTfc8ugrlHzRqpeF_bAArSIx8Z1GzZVRLHCDRWSGM",
+          "largeThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/LARGE?path=/CT_Slices/ID-SS316L-0h0318.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxOC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.7ZUTfc8ugrlHzRqpeF_bAArSIx8Z1GzZVRLHCDRWSGM",
+          "fullThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/FULL?path=/CT_Slices/ID-SS316L-0h0318.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxOC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.7ZUTfc8ugrlHzRqpeF_bAArSIx8Z1GzZVRLHCDRWSGM",
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "CT_Slices/ID-SS316L-0h0318.tif",
+          "issued": "",
+          "modified": "2022-01-18T23:33:31.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 4000191,
+          "mediaType": "image/tiff",
+          "format": "image/tiff"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13381137",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13381521",
+      "name": "CT_Slices/ID-SS316L-0h0319.tif",
+      "aspects": {
+        "dap-resource": {
+          "id": 13381521,
+          "filename": "CT_Slices/ID-SS316L-0h0319.tif",
+          "lastUpdated": "2022-01-19T10:36:44.000+11:00",
+          "fileSize": 4000191,
+          "link": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13381521",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9DVF9TbGljZXNcL0lELVNTMzE2TC0waDAzMTkudGlmIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMX0.FESX2xSNDQYiqNgXXuFGSDeDvDPs99ydNIr6h0AIgls",
+            "fileUpload": false
+          },
+          "parameters": [
+            {
+              "name": "Description",
+              "value": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "units": null,
+              "stringValue": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Title",
+              "value": "ID-SS316L-0h0319.tif",
+              "units": null,
+              "stringValue": "ID-SS316L-0h0319.tif",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Creator",
+              "value": "Sam Yang",
+              "units": null,
+              "stringValue": "Sam Yang",
+              "numericValue": null,
+              "dateValue": null
+            }
+          ],
+          "smallThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/SMALL?path=/CT_Slices/ID-SS316L-0h0319.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxOS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.ALGiooM7CRSB1bxUomKXLaU-_3Nir6IXqgdzXaqOxQw",
+          "mediumThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/MEDIUM?path=/CT_Slices/ID-SS316L-0h0319.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxOS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.ALGiooM7CRSB1bxUomKXLaU-_3Nir6IXqgdzXaqOxQw",
+          "largeThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/LARGE?path=/CT_Slices/ID-SS316L-0h0319.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxOS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.ALGiooM7CRSB1bxUomKXLaU-_3Nir6IXqgdzXaqOxQw",
+          "fullThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/FULL?path=/CT_Slices/ID-SS316L-0h0319.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMxOS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.ALGiooM7CRSB1bxUomKXLaU-_3Nir6IXqgdzXaqOxQw",
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "CT_Slices/ID-SS316L-0h0319.tif",
+          "issued": "",
+          "modified": "2022-01-18T23:36:44.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 4000191,
+          "mediaType": "image/tiff",
+          "format": "image/tiff"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13381521",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13380868",
+      "name": "CT_Slices/ID-SS316L-0h0320.tif",
+      "aspects": {
+        "dap-resource": {
+          "id": 13380868,
+          "filename": "CT_Slices/ID-SS316L-0h0320.tif",
+          "lastUpdated": "2022-01-19T10:30:31.000+11:00",
+          "fileSize": 4000191,
+          "link": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13380868",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9DVF9TbGljZXNcL0lELVNTMzE2TC0waDAzMjAudGlmIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMX0.QWf8SG248pXth3Q3rX1xgMIcU1eF8pUdpAdFouHlge0",
+            "fileUpload": false
+          },
+          "parameters": [
+            {
+              "name": "Description",
+              "value": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "units": null,
+              "stringValue": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Title",
+              "value": "ID-SS316L-0h0320.tif",
+              "units": null,
+              "stringValue": "ID-SS316L-0h0320.tif",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Creator",
+              "value": "Sam Yang",
+              "units": null,
+              "stringValue": "Sam Yang",
+              "numericValue": null,
+              "dateValue": null
+            }
+          ],
+          "smallThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/SMALL?path=/CT_Slices/ID-SS316L-0h0320.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMyMC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.L6JGgvrDlYL5C-iS2WmJ_3Dp3foctSNo_GNFVe1oRVU",
+          "mediumThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/MEDIUM?path=/CT_Slices/ID-SS316L-0h0320.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMyMC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.L6JGgvrDlYL5C-iS2WmJ_3Dp3foctSNo_GNFVe1oRVU",
+          "largeThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/LARGE?path=/CT_Slices/ID-SS316L-0h0320.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMyMC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.L6JGgvrDlYL5C-iS2WmJ_3Dp3foctSNo_GNFVe1oRVU",
+          "fullThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/FULL?path=/CT_Slices/ID-SS316L-0h0320.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMyMC50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.L6JGgvrDlYL5C-iS2WmJ_3Dp3foctSNo_GNFVe1oRVU",
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "CT_Slices/ID-SS316L-0h0320.tif",
+          "issued": "",
+          "modified": "2022-01-18T23:30:31.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 4000191,
+          "mediaType": "image/tiff",
+          "format": "image/tiff"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13380868",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13380891",
+      "name": "CT_Slices/ID-SS316L-0h0321.tif",
+      "aspects": {
+        "dap-resource": {
+          "id": 13380891,
+          "filename": "CT_Slices/ID-SS316L-0h0321.tif",
+          "lastUpdated": "2022-01-19T10:30:47.000+11:00",
+          "fileSize": 4000191,
+          "link": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13380891",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9DVF9TbGljZXNcL0lELVNTMzE2TC0waDAzMjEudGlmIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMX0.nUhDdK3MZFvq1qb9pD_UUTZ_0tRwIZr5rzR7s3RXq2E",
+            "fileUpload": false
+          },
+          "parameters": [
+            {
+              "name": "Description",
+              "value": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "units": null,
+              "stringValue": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Title",
+              "value": "ID-SS316L-0h0321.tif",
+              "units": null,
+              "stringValue": "ID-SS316L-0h0321.tif",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Creator",
+              "value": "Sam Yang",
+              "units": null,
+              "stringValue": "Sam Yang",
+              "numericValue": null,
+              "dateValue": null
+            }
+          ],
+          "smallThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/SMALL?path=/CT_Slices/ID-SS316L-0h0321.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMyMS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.I0Z8yMHY4olLgmdqvv8vyoN2dr6llCSd99qXt4LZmHU",
+          "mediumThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/MEDIUM?path=/CT_Slices/ID-SS316L-0h0321.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMyMS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.I0Z8yMHY4olLgmdqvv8vyoN2dr6llCSd99qXt4LZmHU",
+          "largeThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/LARGE?path=/CT_Slices/ID-SS316L-0h0321.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMyMS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.I0Z8yMHY4olLgmdqvv8vyoN2dr6llCSd99qXt4LZmHU",
+          "fullThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/FULL?path=/CT_Slices/ID-SS316L-0h0321.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMyMS50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.I0Z8yMHY4olLgmdqvv8vyoN2dr6llCSd99qXt4LZmHU",
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "CT_Slices/ID-SS316L-0h0321.tif",
+          "issued": "",
+          "modified": "2022-01-18T23:30:47.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 4000191,
+          "mediaType": "image/tiff",
+          "format": "image/tiff"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13380891",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13381545",
+      "name": "CT_Slices/ID-SS316L-0h0322.tif",
+      "aspects": {
+        "dap-resource": {
+          "id": 13381545,
+          "filename": "CT_Slices/ID-SS316L-0h0322.tif",
+          "lastUpdated": "2022-01-19T10:36:53.000+11:00",
+          "fileSize": 4000191,
+          "link": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13381545",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9DVF9TbGljZXNcL0lELVNTMzE2TC0waDAzMjIudGlmIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMX0.9C92gjtmZ8bL-eGDC-OFdfiWK5GINyWI5T-jAXYPQdI",
+            "fileUpload": false
+          },
+          "parameters": [
+            {
+              "name": "Description",
+              "value": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "units": null,
+              "stringValue": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Title",
+              "value": "ID-SS316L-0h0322.tif",
+              "units": null,
+              "stringValue": "ID-SS316L-0h0322.tif",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Creator",
+              "value": "Sam Yang",
+              "units": null,
+              "stringValue": "Sam Yang",
+              "numericValue": null,
+              "dateValue": null
+            }
+          ],
+          "smallThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/SMALL?path=/CT_Slices/ID-SS316L-0h0322.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMyMi50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.MUKWH_W-OSM9zpxbbgZFd2bceTaUqsiiXj34f-xOtpQ",
+          "mediumThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/MEDIUM?path=/CT_Slices/ID-SS316L-0h0322.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMyMi50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.MUKWH_W-OSM9zpxbbgZFd2bceTaUqsiiXj34f-xOtpQ",
+          "largeThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/LARGE?path=/CT_Slices/ID-SS316L-0h0322.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMyMi50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.MUKWH_W-OSM9zpxbbgZFd2bceTaUqsiiXj34f-xOtpQ",
+          "fullThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/FULL?path=/CT_Slices/ID-SS316L-0h0322.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMyMi50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.MUKWH_W-OSM9zpxbbgZFd2bceTaUqsiiXj34f-xOtpQ",
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "CT_Slices/ID-SS316L-0h0322.tif",
+          "issued": "",
+          "modified": "2022-01-18T23:36:53.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 4000191,
+          "mediaType": "image/tiff",
+          "format": "image/tiff"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13381545",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13381122",
+      "name": "CT_Slices/ID-SS316L-0h0323.tif",
+      "aspects": {
+        "dap-resource": {
+          "id": 13381122,
+          "filename": "CT_Slices/ID-SS316L-0h0323.tif",
+          "lastUpdated": "2022-01-19T10:33:22.000+11:00",
+          "fileSize": 4000191,
+          "link": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13381122",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "image/tiff",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9DVF9TbGljZXNcL0lELVNTMzE2TC0waDAzMjMudGlmIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMX0.C0c01-6fmZRTm7Oc7IY4RbtF9EPEIVO4LcEqPlLlbI8",
+            "fileUpload": false
+          },
+          "parameters": [
+            {
+              "name": "Description",
+              "value": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "units": null,
+              "stringValue": "ImageJ=1.51k\nmin=0.0\nmax=0.3483559489250183\n",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Title",
+              "value": "ID-SS316L-0h0323.tif",
+              "units": null,
+              "stringValue": "ID-SS316L-0h0323.tif",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Creator",
+              "value": "Sam Yang",
+              "units": null,
+              "stringValue": "Sam Yang",
+              "numericValue": null,
+              "dateValue": null
+            }
+          ],
+          "smallThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/SMALL?path=/CT_Slices/ID-SS316L-0h0323.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMyMy50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.AZ498cddaKHFqVwSMFzs2WMJW6qRhekwbzW4Zhiw558",
+          "mediumThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/MEDIUM?path=/CT_Slices/ID-SS316L-0h0323.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMyMy50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.AZ498cddaKHFqVwSMFzs2WMJW6qRhekwbzW4Zhiw558",
+          "largeThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/LARGE?path=/CT_Slices/ID-SS316L-0h0323.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMyMy50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.AZ498cddaKHFqVwSMFzs2WMJW6qRhekwbzW4Zhiw558",
+          "fullThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/FULL?path=/CT_Slices/ID-SS316L-0h0323.tif&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL0NUX1NsaWNlc1wvSUQtU1MzMTZMLTBoMDMyMy50aWYiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMX0.AZ498cddaKHFqVwSMFzs2WMJW6qRhekwbzW4Zhiw558",
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "CT_Slices/ID-SS316L-0h0323.tif",
+          "issued": "",
+          "modified": "2022-01-18T23:33:22.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 4000191,
+          "mediaType": "image/tiff",
+          "format": "image/tiff"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13381122",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13380616",
+      "name": "DCM_Data/SS316L.dcm",
+      "aspects": {
+        "dap-resource": {
+          "id": 13380616,
+          "filename": "DCM_Data/SS316L.dcm",
+          "lastUpdated": "2022-01-19T10:35:23.000+11:00",
+          "fileSize": 3834674932,
+          "link": {
+            "relationship": "self",
+            "mediaType": "application/octet-stream",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13380616",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "application/octet-stream",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9EQ01fRGF0YVwvU1MzMTZMLmRjbSIsImlzcyI6Imh0dHBzOlwvXC9kYXRhLmNzaXJvLmF1IiwiREFUQV9DT0xMRUNUSU9OX0lEIjoiNTM2MjMiLCJleHAiOjE2NjYxNDkzMDJ9._xN9Ecfd5QN4aKWGqSUMnOLGDy2-hO_JK9Xhnwgvyu8",
+            "fileUpload": false
+          },
+          "parameters": [],
+          "smallThumbnail": null,
+          "mediumThumbnail": null,
+          "largeThumbnail": null,
+          "fullThumbnail": null,
+          "zipDownloadable": false
+        },
+        "dcat-distribution-strings": {
+          "title": "DCM_Data/SS316L.dcm",
+          "issued": "",
+          "modified": "2022-01-18T23:35:23.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 3834674932,
+          "mediaType": "application/octet-stream",
+          "format": "application/octet-stream"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13380616",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13380588",
+      "name": "Readme.docx",
+      "aspects": {
+        "dap-resource": {
+          "id": 13380588,
+          "filename": "Readme.docx",
+          "lastUpdated": "2022-01-19T10:27:07.000+11:00",
+          "fileSize": 26811,
+          "link": {
+            "relationship": "self",
+            "mediaType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13380588",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9SZWFkbWUuZG9jeCIsImlzcyI6Imh0dHBzOlwvXC9kYXRhLmNzaXJvLmF1IiwiREFUQV9DT0xMRUNUSU9OX0lEIjoiNTM2MjMiLCJleHAiOjE2NjYxNDkzMDJ9.hlcGej-pNRfd9eYMdIImkRFXV84R-nBvzzVVL4dr_T8",
+            "fileUpload": false
+          },
+          "parameters": [],
+          "smallThumbnail": null,
+          "mediumThumbnail": null,
+          "largeThumbnail": null,
+          "fullThumbnail": null,
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "Readme.docx",
+          "issued": "",
+          "modified": "2022-01-18T23:27:07.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 26811,
+          "mediaType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "format": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13380588",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13380589",
+      "name": "SS316L.jpg",
+      "aspects": {
+        "dap-resource": {
+          "id": 13380589,
+          "filename": "SS316L.jpg",
+          "lastUpdated": "2022-01-19T10:27:10.000+11:00",
+          "fileSize": 223343,
+          "link": {
+            "relationship": "self",
+            "mediaType": "image/jpeg",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13380589",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "image/jpeg",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9TUzMxNkwuanBnIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMn0.2sX4z7gU7S9oSvC7fb1MsbHGQEdsCW-zfS2U609SwT0",
+            "fileUpload": false
+          },
+          "parameters": [
+            {
+              "name": "Title",
+              "value": "SS316L.jpg",
+              "units": null,
+              "stringValue": "SS316L.jpg",
+              "numericValue": null,
+              "dateValue": null
+            },
+            {
+              "name": "Creator",
+              "value": "Sam Yang",
+              "units": null,
+              "stringValue": "Sam Yang",
+              "numericValue": null,
+              "dateValue": null
+            }
+          ],
+          "smallThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/SMALL?path=/SS316L.jpg&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL1NTMzE2TC5qcGciLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMn0.NPXpriB51eQ3MFM1vHp5vz5XzNLk8vfw-BBZSTUstLY",
+          "mediumThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/MEDIUM?path=/SS316L.jpg&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL1NTMzE2TC5qcGciLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMn0.NPXpriB51eQ3MFM1vHp5vz5XzNLk8vfw-BBZSTUstLY",
+          "largeThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/LARGE?path=/SS316L.jpg&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL1NTMzE2TC5qcGciLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMn0.NPXpriB51eQ3MFM1vHp5vz5XzNLk8vfw-BBZSTUstLY",
+          "fullThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/FULL?path=/SS316L.jpg&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL1NTMzE2TC5qcGciLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMn0.NPXpriB51eQ3MFM1vHp5vz5XzNLk8vfw-BBZSTUstLY",
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "SS316L.jpg",
+          "issued": "",
+          "modified": "2022-01-18T23:27:10.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 223343,
+          "mediaType": "image/jpeg",
+          "format": "image/jpeg"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13380589",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13380590",
+      "name": "Web3D/SS316L.xhtml",
+      "aspects": {
+        "dap-resource": {
+          "id": 13380590,
+          "filename": "Web3D/SS316L.xhtml",
+          "lastUpdated": "2022-01-19T10:27:20.000+11:00",
+          "fileSize": 6645,
+          "link": {
+            "relationship": "self",
+            "mediaType": "application/xhtml+xml",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13380590",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "application/xhtml+xml",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9XZWIzRFwvU1MzMTZMLnhodG1sIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMn0.C6bFhckR5BOJ4bGJsApYOrB0MP-azjnc0jh3_aMG2yE",
+            "fileUpload": false
+          },
+          "parameters": [],
+          "smallThumbnail": null,
+          "mediumThumbnail": null,
+          "largeThumbnail": null,
+          "fullThumbnail": null,
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "Web3D/SS316L.xhtml",
+          "issued": "",
+          "modified": "2022-01-18T23:27:20.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 6645,
+          "mediaType": "application/xhtml+xml",
+          "format": "application/xhtml+xml"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13380590",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13380615",
+      "name": "Web3D/SS316L_dcm1.js",
+      "aspects": {
+        "dap-resource": {
+          "id": 13380615,
+          "filename": "Web3D/SS316L_dcm1.js",
+          "lastUpdated": "2022-01-19T10:27:22.000+11:00",
+          "fileSize": 10656,
+          "link": {
+            "relationship": "self",
+            "mediaType": "application/javascript",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13380615",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "application/javascript",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9XZWIzRFwvU1MzMTZMX2RjbTEuanMiLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsIkRBVEFfQ09MTEVDVElPTl9JRCI6IjUzNjIzIiwiZXhwIjoxNjY2MTQ5MzAyfQ.SnhN3DSBPbn9xhfxWLTDVNeRBJ4zt_2GBzsHsp5KHwU",
+            "fileUpload": false
+          },
+          "parameters": [],
+          "smallThumbnail": null,
+          "mediumThumbnail": null,
+          "largeThumbnail": null,
+          "fullThumbnail": null,
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "Web3D/SS316L_dcm1.js",
+          "issued": "",
+          "modified": "2022-01-18T23:27:22.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 10656,
+          "mediaType": "application/javascript",
+          "format": "application/javascript"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13380615",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13380594",
+      "name": "Web3D/css/dcm103.css",
+      "aspects": {
+        "dap-resource": {
+          "id": 13380594,
+          "filename": "Web3D/css/dcm103.css",
+          "lastUpdated": "2022-01-19T10:27:21.000+11:00",
+          "fileSize": 2637,
+          "link": {
+            "relationship": "self",
+            "mediaType": "text/css",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13380594",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "text/css",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9XZWIzRFwvY3NzXC9kY20xMDMuY3NzIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMn0.Hz1tcRDT5Gw-9qfFD58_bz4_6Et65sTh6wDaMcfMqt8",
+            "fileUpload": false
+          },
+          "parameters": [],
+          "smallThumbnail": null,
+          "mediumThumbnail": null,
+          "largeThumbnail": null,
+          "fullThumbnail": null,
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "Web3D/css/dcm103.css",
+          "issued": "",
+          "modified": "2022-01-18T23:27:21.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 2637,
+          "mediaType": "text/css",
+          "format": "text/css"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13380594",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "dist-dap-13380597",
+      "name": "Web3D/css/images/ui-bg_diagonals-thick_18_b81900_40x40.png",
+      "aspects": {
+        "dap-resource": {
+          "id": 13380597,
+          "filename": "Web3D/css/images/ui-bg_diagonals-thick_18_b81900_40x40.png",
+          "lastUpdated": "2022-01-19T10:27:22.000+11:00",
+          "fileSize": 418,
+          "link": {
+            "relationship": "self",
+            "mediaType": "image/png",
+            "href": "https://data.csiro.au/dap/ws/v2/collections/53623/data/13380597",
+            "fileUpload": false
+          },
+          "presignedLink": {
+            "relationship": "self",
+            "mediaType": "image/png",
+            "href": "https://data.csiro.au/dap/ws/v2/data/token?jwt=eyJhbGciOiJIUzI1NiJ9.eyJQQVRIIjoiXC9XZWIzRFwvY3NzXC9pbWFnZXNcL3VpLWJnX2RpYWdvbmFscy10aGlja18xOF9iODE5MDBfNDB4NDAucG5nIiwiaXNzIjoiaHR0cHM6XC9cL2RhdGEuY3Npcm8uYXUiLCJEQVRBX0NPTExFQ1RJT05fSUQiOiI1MzYyMyIsImV4cCI6MTY2NjE0OTMwMn0.xyRbhzFV2JyF-07EerfbH9IXJ1oOZy74dayEW0pJS9k",
+            "fileUpload": false
+          },
+          "parameters": [],
+          "smallThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/SMALL?path=/Web3D/css/images/ui-bg_diagonals-thick_18_b81900_40x40.png&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL1dlYjNEXC9jc3NcL2ltYWdlc1wvdWktYmdfZGlhZ29uYWxzLXRoaWNrXzE4X2I4MTkwMF80MHg0MC5wbmciLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMn0.8aB0_0vLCVRATONNYJK7JSntMTHb8_HCir0ECGdaIaQ",
+          "mediumThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/MEDIUM?path=/Web3D/css/images/ui-bg_diagonals-thick_18_b81900_40x40.png&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL1dlYjNEXC9jc3NcL2ltYWdlc1wvdWktYmdfZGlhZ29uYWxzLXRoaWNrXzE4X2I4MTkwMF80MHg0MC5wbmciLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMn0.8aB0_0vLCVRATONNYJK7JSntMTHb8_HCir0ECGdaIaQ",
+          "largeThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/LARGE?path=/Web3D/css/images/ui-bg_diagonals-thick_18_b81900_40x40.png&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL1dlYjNEXC9jc3NcL2ltYWdlc1wvdWktYmdfZGlhZ29uYWxzLXRoaWNrXzE4X2I4MTkwMF80MHg0MC5wbmciLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMn0.8aB0_0vLCVRATONNYJK7JSntMTHb8_HCir0ECGdaIaQ",
+          "fullThumbnail": "https://data.csiro.au/dap/ws/v2/collections/53623/thumbnail/FULL?path=/Web3D/css/images/ui-bg_diagonals-thick_18_b81900_40x40.png&jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJcL1dlYjNEXC9jc3NcL2ltYWdlc1wvdWktYmdfZGlhZ29uYWxzLXRoaWNrXzE4X2I4MTkwMF80MHg0MC5wbmciLCJpc3MiOiJodHRwczpcL1wvZGF0YS5jc2lyby5hdSIsImV4cCI6MTY2NjE0OTMwMn0.8aB0_0vLCVRATONNYJK7JSntMTHb8_HCir0ECGdaIaQ",
+          "zipDownloadable": true
+        },
+        "dcat-distribution-strings": {
+          "title": "Web3D/css/images/ui-bg_diagonals-thick_18_b81900_40x40.png",
+          "issued": "",
+          "modified": "2022-01-18T23:27:22.000Z",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "license": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "accessURL": "https://data.csiro.au/collection/csiro:53623",
+          "accessNotes": "Please download the file from DAP UI files tab.",
+          "byteSize": 418,
+          "mediaType": "image/png",
+          "format": "image/png"
+        },
+        "source": {
+          "type": "dap-resource",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/data?id=13380597",
+          "id": "dap",
+          "name": "CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    },
+    {
+      "id": "ds-dap-csiro:53623",
+      "name": "Microstructure of a Commercial 316L Stainless-Steel Sample",
+      "aspects": {
+        "dap-dataset": {
+          "dataCollectionTypeCode": "httpUploadedFiles",
+          "id": {
+            "identifierType": "Fedora PID",
+            "identifier": "csiro:53623"
+          },
+          "dataCollectionId": 53623,
+          "self": "https://data.csiro.au/dap/ws/v2/collections/53623",
+          "landingPage": {
+            "relationship": "alternate",
+            "mediaType": "text/html",
+            "href": "https://data.csiro.au/collection/csiro:53623",
+            "fileUpload": false
+          },
+          "title": "Microstructure of a Commercial 316L Stainless-Steel Sample",
+          "description": "The sample used in this study was a commercial 316Lstainless-steel bar. The X-ray CT specimen was machined to a cylindrical shape with a length of 1cm and diameter of 2mm. The sample surface was polished by hand with a sandpaper.  The X-ray projection images of the specimen was acquired using a Sanying Precision Engineering nanoVoxel-3000H microfocus X-ray CT machine. The CT slices have been analyzed using the DCM software.",
+          "legacyId": null,
+          "fieldsOfResearch": [
+            "Metals and Alloy Materials",
+            "Surfaces and Structural Properties of Condensed Matter"
+          ],
+          "contact": {
+            "contactName": "Sam Yang",
+            "contactDetails": "Sam.Yang@csiro.au"
+          },
+          "dataStartDate": "",
+          "dataEndDate": "2021-12-23",
+          "keywords": "Stainless steel 316L, microstructure, X-ray CT, data-constrained modelling, DCM",
+          "relatedLinks": [
+            {
+              "id": 12711,
+              "address": "https://static.csiro.au/dcm/Web3D/index.php?Yang2022@SS316L.xhtml",
+              "displayText": "Web3D display of SS316L microstructures",
+              "toolTip": null,
+              "type": "Website",
+              "attributionStatement": null,
+              "order": 0
+            },
+            {
+              "id": 12712,
+              "address": "http://research.csiro.au/dcm",
+              "displayText": "DCM homepage",
+              "toolTip": null,
+              "type": "Website",
+              "attributionStatement": null,
+              "order": 1
+            }
+          ],
+          "lineage": "The X-ray projection images of the specimen was acquired using a Sanying Precision Engineering nanoVoxel-3000H microfocus X-ray CT machine. The X-ray tube voltage and current were set to 160kV and 50 µA during CT scanning. A 1mm thick Cu filter was mounted on the X-ray tube to reduce the beam-hardening effect. A total of 1440 projection images were collected when the specimen was rotated for 360°. A Varian detector with a native pixel size of 127 μm was used to capture the X-ray projection images. The sample to detector distance (SDD) was 635.88 cm and the exposure time for each projection image was 2 seconds. The effective pixel size of the projection image was 2.996 μm. Ten flatfield images were collected before scanning, which were used for background reduction for all projection images to reduce the influence of background noise for CT reconstruction. Using the native reconstruction software for the Nanovox EL-3000H X-ray 3D high-resolution imaging system, a total of 1536 CT slices were reconstructed with an iterative reconstruction method. The CT slices have been analyzed using the DCM software (http://research.csiro.au/dcm). The CT slices were analyzed using the DCM nonlinear optimization module. The DCM software default values were used for all parameters.",
+          "credit": "Shanxi University",
+          "licence": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+          "licenceLink": {
+            "relationship": "license",
+            "mediaType": "text/html",
+            "href": "https://data.csiro.au/dap/ws/v2/licences/1141",
+            "fileUpload": false
+          },
+          "organisations": [
+            "CSIRO (Australia)",
+            "Shanxi University (China)"
+          ],
+          "attributionStatement": "Yang, Sam; Wang, Haipeng; Wang, Jinxiu; Wang, Runhua; Li, Jianli; Liu, Rui (2022): Microstructure of a Commercial 316L Stainless-Steel Sample. v1. CSIRO. Data Collection. https://doi.org/10.25919/6hhb-7w51",
+          "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+          "access": "The metadata and files (if any) are available to the public.",
+          "size": "medium",
+          "published": "2022-01-21T10:13:55.735+11:00",
+          "leadResearcher": "Sam Yang",
+          "spatialParameters": {
+            "projection": "WGS84",
+            "northLatitude": "-10.468185",
+            "southLatitude": "-24.498425",
+            "westLongitude": "142.46459",
+            "eastLongitude": "154.001"
+          },
+          "versions": "https://data.csiro.au/dap/ws/v2/collections/53623/versions",
+          "metadata": "https://data.csiro.au/dap/ws/v2/collections/53623/metadata",
+          "data": "https://data.csiro.au/dap/ws/v2/collections/53623/data",
+          "serviceCount": 0,
+          "supportingFiles": "https://data.csiro.au/dap/ws/v2/collections/53623/support",
+          "contributors": [
+            "Haipeng Wang",
+            "Jinxiu Wang",
+            "Runhua Wang",
+            "Jianli Li",
+            "Rui Liu"
+          ],
+          "allNames": [
+            {
+              "name": "Yang, Sam",
+              "display": "Sam Yang",
+              "orcidId": "0000-0002-8565-6214",
+              "type": "Person"
+            },
+            {
+              "name": "Wang, Haipeng",
+              "display": "Haipeng Wang",
+              "orcidId": null,
+              "type": "Person"
+            },
+            {
+              "name": "Wang, Jinxiu",
+              "display": "Jinxiu Wang",
+              "orcidId": null,
+              "type": "Person"
+            },
+            {
+              "name": "Wang, Runhua",
+              "display": "Runhua Wang",
+              "orcidId": null,
+              "type": "Person"
+            },
+            {
+              "name": "Li, Jianli",
+              "display": "Jianli Li",
+              "orcidId": null,
+              "type": "Person"
+            },
+            {
+              "name": "Liu, Rui",
+              "display": "Rui Liu",
+              "orcidId": null,
+              "type": "Person"
+            }
+          ],
+          "activity": {
+            "activityId": 14568,
+            "activityTitle": "DCM",
+            "activityType": "Analysis",
+            "activityDescription": "Quantitative material 3D microstructure characterization and modelling"
+          },
+          "domainType": "GENERIC",
+          "collectionContentType": "Data",
+          "andsPid": "102.100.100/434906",
+          "doi": "10.25919/6hhb-7w51",
+          "project": {
+            "irpHierarchy": true,
+            "wbs": "R-16619",
+            "businessUnit": "MANUFACTURING",
+            "program": "Materials Characterisation and Modelling",
+            "projectDescription": "Follow-on activities for further exploitation of the GIL project outcome. The activities include: (1) evaluation of DCM characterization of AM metal parts porosity defects with neutron imaging at ANSTO, high-photon-energy X-ray CT imaging with PWR, Australian Synchrotron, ANU and Flinders uni; (2) Consortium development for establishment of high-energy industrial X-ray CT facility in CSIRO Clayton; (3) Commercial project proposal development for porosity defect detection and modelling characterization. ",
+            "projectLeader": "Sam Yang",
+            "projectTitle": "Porosity defect characterization for AM metal parts"
+          },
+          "organisationalLevels": {
+            "irpHierarchy": true,
+            "businessUnit": "MANUFACTURING",
+            "team": "Materials and Process Modelling",
+            "program": "Materials Characterisation and Modelling",
+            "group": "Structure, Morphology and Modelling"
+          },
+          "accessLevel": "Public",
+          "dataRestricted": "FALSE",
+          "mounted": true,
+          "depositStatus": "P",
+          "accessViewable": false,
+          "withdrawn": false,
+          "askapLevel7": false,
+          "permaLink": "https://doi.org/10.25919/6hhb-7w51",
+          "selfLink": "https://data.csiro.au/collection/csiro:53623"
+        },
+        "dcat-dataset-strings": {
+          "title": "Microstructure of a Commercial 316L Stainless-Steel Sample",
+          "description": "The sample used in this study was a commercial 316Lstainless-steel bar. The X-ray CT specimen was machined to a cylindrical shape with a length of 1cm and diameter of 2mm. The sample surface was polished by hand with a sandpaper.  The X-ray projection images of the specimen was acquired using a Sanying Precision Engineering nanoVoxel-3000H microfocus X-ray CT machine. The CT slices have been analyzed using the DCM software.\n\nThe metadata and files (if any) are available to the public.\n\n",
+          "issued": "2022-01-20T23:13:55.735Z",
+          "languages": [
+            "English"
+          ],
+          "publisher": "The Commonwealth Scientific and Industrial Research Organisation",
+          "accrualPeriodicity": "",
+          "spatial": "",
+          "temporal": {
+            "start": "",
+            "end": "2021-12-23"
+          },
+          "themes": [],
+          "keywords": [
+            "Stainless steel 316L",
+            " microstructure",
+            " X-ray CT",
+            " data-constrained modelling",
+            " DCM"
+          ],
+          "contactPoint": "Yang, Sam; Wang, Haipeng; Wang, Jinxiu; Wang, Runhua; Li, Jianli; Liu, Rui (2022): Microstructure of a Commercial 316L Stainless-Steel Sample. v1. CSIRO. Data Collection. https://doi.org/10.25919/6hhb-7w51",
+          "landingPage": "https://data.csiro.au/collection/csiro:53623",
+          "defaultLicense": "Creative Commons Attribution-No Derivatives 4.0 International Licence"
+        },
+        "source": {
+          "type": "dap-dataset",
+          "url": "https://data.csiro.au/dap/ws/v2/collections/csiro:53623",
+          "id": "dap",
+          "name": "CSIRO"
+        },
+        "spatial-coverage": {
+          "spatialDataInputMethod": "bbox",
+          "bbox": [
+            "142.46459",
+            "-24.498425",
+            "154.001",
+            "-10.468185"
+          ]
+        },
+        "dataset-distributions": {
+          "distributions": [
+            "dist-dap-13380861",
+            "dist-dap-13381115",
+            "dist-dap-13380619",
+            "dist-dap-13381143",
+            "dist-dap-13381567",
+            "dist-dap-13381406",
+            "dist-dap-13381147",
+            "dist-dap-13380754",
+            "dist-dap-13381291",
+            "dist-dap-13381317",
+            "dist-dap-13380620",
+            "dist-dap-13381152",
+            "dist-dap-13381566",
+            "dist-dap-13381579",
+            "dist-dap-13381319",
+            "dist-dap-13381264",
+            "dist-dap-13380621",
+            "dist-dap-13381453",
+            "dist-dap-13381137",
+            "dist-dap-13381521",
+            "dist-dap-13380868",
+            "dist-dap-13380891",
+            "dist-dap-13381545",
+            "dist-dap-13381122",
+            "dist-dap-13380616",
+            "dist-dap-13380588",
+            "dist-dap-13380589",
+            "dist-dap-13380590",
+            "dist-dap-13380615",
+            "dist-dap-13380594",
+            "dist-dap-13380597"
+          ]
+        },
+        "dataset-publisher": {
+          "publisher": "org-dap-CSIRO"
+        }
+      },
+      "sourceTag": "12afd6f7-13b3-4c27-b0a0-8f7399eee9f9"
+    }
+  ]

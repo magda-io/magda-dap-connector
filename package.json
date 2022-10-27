@@ -15,7 +15,7 @@
     "docker-build-prod": "create-docker-context-for-node-component --build --push --tag auto",
     "retag-and-push": "retag-and-push",
     "helm-lint": "helm lint deploy/magda-dap-connector -f deploy/test-deploy.yaml",
-    "test": "echo \"Test cases to be created for DAP connector\"",
+    "test": "mocha",
     "helm-docs": "helm-docs -t ./README.md.gotmpl -o ../../README.md",
     "update-all-charts": "helm dep up ./deploy/magda-dap-connector",
     "add-all-chart-version-changes": "git ls-files -m | grep Chart.yaml | xargs git add && git ls-files -m | grep Chart.lock | xargs git add",
