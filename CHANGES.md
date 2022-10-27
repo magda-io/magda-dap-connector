@@ -8,6 +8,8 @@
 -   Release multi-arch docker images
 -   Use node-fetch for all http requests instead
 -   Refactor DAP connector code
+-   Added test cases
+-   Added support for `spatial-coverage` aspect
 
 # 1.0.0
 
