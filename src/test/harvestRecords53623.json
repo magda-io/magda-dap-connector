@@ -2357,10 +2357,10 @@
         "spatial-coverage": {
           "spatialDataInputMethod": "bbox",
           "bbox": [
-            "142.46459",
-            "-24.498425",
-            "154.001",
-            "-10.468185"
+            142.46459,
+            -24.498425,
+            154.001,
+            -10.468185
           ]
         },
         "dataset-distributions": {
