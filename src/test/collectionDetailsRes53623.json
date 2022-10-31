@@ -1,0 +1,160 @@
+{
+    "dataCollectionTypeCode": "httpUploadedFiles",
+    "id": {
+        "identifierType": "Fedora PID",
+        "identifier": "csiro:53623"
+    },
+    "dataCollectionId": 53623,
+    "self": "https://data.csiro.au/dap/ws/v2/collections/53623",
+    "landingPage": {
+        "relationship": "alternate",
+        "mediaType": "text/html",
+        "href": "https://data.csiro.au/collection/csiro:53623",
+        "fileUpload": false
+    },
+    "title": "Microstructure of a Commercial 316L Stainless-Steel Sample",
+    "description": "The sample used in this study was a commercial 316Lstainless-steel bar. The X-ray CT specimen was machined to a cylindrical shape with a length of 1cm and diameter of 2mm. The sample surface was polished by hand with a sandpaper.  The X-ray projection images of the specimen was acquired using a Sanying Precision Engineering nanoVoxel-3000H microfocus X-ray CT machine. The CT slices have been analyzed using the DCM software.",
+    "legacyId": null,
+    "fieldsOfResearch": [
+        "Metals and Alloy Materials",
+        "Surfaces and Structural Properties of Condensed Matter"
+    ],
+    "contact": {
+        "contactName": "Sam Yang",
+        "contactDetails": "Sam.Yang@csiro.au"
+    },
+    "dataStartDate": "",
+    "dataEndDate": "2021-12-23",
+    "keywords": "Stainless steel 316L, microstructure, X-ray CT, data-constrained modelling, DCM",
+    "relatedLinks": [
+        {
+            "id": 12711,
+            "address": "https://static.csiro.au/dcm/Web3D/index.php?Yang2022@SS316L.xhtml",
+            "displayText": "Web3D display of SS316L microstructures",
+            "toolTip": null,
+            "type": "Website",
+            "attributionStatement": null,
+            "order": 0
+        },
+        {
+            "id": 12712,
+            "address": "http://research.csiro.au/dcm",
+            "displayText": "DCM homepage",
+            "toolTip": null,
+            "type": "Website",
+            "attributionStatement": null,
+            "order": 1
+        }
+    ],
+    "lineage": "The X-ray projection images of the specimen was acquired using a Sanying Precision Engineering nanoVoxel-3000H microfocus X-ray CT machine. The X-ray tube voltage and current were set to 160kV and 50 µA during CT scanning. A 1mm thick Cu filter was mounted on the X-ray tube to reduce the beam-hardening effect. A total of 1440 projection images were collected when the specimen was rotated for 360°. A Varian detector with a native pixel size of 127 μm was used to capture the X-ray projection images. The sample to detector distance (SDD) was 635.88 cm and the exposure time for each projection image was 2 seconds. The effective pixel size of the projection image was 2.996 μm. Ten flatfield images were collected before scanning, which were used for background reduction for all projection images to reduce the influence of background noise for CT reconstruction. Using the native reconstruction software for the Nanovox EL-3000H X-ray 3D high-resolution imaging system, a total of 1536 CT slices were reconstructed with an iterative reconstruction method. The CT slices have been analyzed using the DCM software (http://research.csiro.au/dcm). The CT slices were analyzed using the DCM nonlinear optimization module. The DCM software default values were used for all parameters.",
+    "credit": "Shanxi University",
+    "licence": "Creative Commons Attribution-No Derivatives 4.0 International Licence",
+    "licenceLink": {
+        "relationship": "license",
+        "mediaType": "text/html",
+        "href": "https://data.csiro.au/dap/ws/v2/licences/1141",
+        "fileUpload": false
+    },
+    "organisations": [
+        "CSIRO (Australia)",
+        "Shanxi University (China)"
+    ],
+    "attributionStatement": "Yang, Sam; Wang, Haipeng; Wang, Jinxiu; Wang, Runhua; Li, Jianli; Liu, Rui (2022): Microstructure of a Commercial 316L Stainless-Steel Sample. v1. CSIRO. Data Collection. https://doi.org/10.25919/6hhb-7w51",
+    "rights": "All Rights (including copyright) CSIRO, Shanxi University 2022.",
+    "access": "The metadata and files (if any) are available to the public.",
+    "size": "medium",
+    "published": "2022-01-21T10:13:55.735+11:00",
+    "leadResearcher": "Sam Yang",
+    "spatialParameters": {
+        "projection": "WGS84",
+        "northLatitude": "10°28′5.466″ S",
+        "southLatitude": "24°29′54.33″ S",
+        "westLongitude": "142°27′52.524″ E",
+        "eastLongitude": "154°0′3.6″ E"
+    },
+    "versions": "https://data.csiro.au/dap/ws/v2/collections/53623/versions",
+    "metadata": "https://data.csiro.au/dap/ws/v2/collections/53623/metadata",
+    "data": "https://data.csiro.au/dap/ws/v2/collections/53623/data",
+    "serviceCount": 0,
+    "supportingFiles": "https://data.csiro.au/dap/ws/v2/collections/53623/support",
+    "contributors": [
+        "Haipeng Wang",
+        "Jinxiu Wang",
+        "Runhua Wang",
+        "Jianli Li",
+        "Rui Liu"
+    ],
+    "allNames": [
+        {
+            "name": "Yang, Sam",
+            "display": "Sam Yang",
+            "orcidId": "0000-0002-8565-6214",
+            "type": "Person"
+        },
+        {
+            "name": "Wang, Haipeng",
+            "display": "Haipeng Wang",
+            "orcidId": null,
+            "type": "Person"
+        },
+        {
+            "name": "Wang, Jinxiu",
+            "display": "Jinxiu Wang",
+            "orcidId": null,
+            "type": "Person"
+        },
+        {
+            "name": "Wang, Runhua",
+            "display": "Runhua Wang",
+            "orcidId": null,
+            "type": "Person"
+        },
+        {
+            "name": "Li, Jianli",
+            "display": "Jianli Li",
+            "orcidId": null,
+            "type": "Person"
+        },
+        {
+            "name": "Liu, Rui",
+            "display": "Rui Liu",
+            "orcidId": null,
+            "type": "Person"
+        }
+    ],
+    "activity": {
+        "activityId": 14568,
+        "activityTitle": "DCM",
+        "activityType": "Analysis",
+        "activityDescription": "Quantitative material 3D microstructure characterization and modelling"
+    },
+    "domainType": "GENERIC",
+    "collectionContentType": "Data",
+    "andsPid": "102.100.100/434906",
+    "doi": "10.25919/6hhb-7w51",
+    "project": {
+        "irpHierarchy": true,
+        "wbs": "R-16619",
+        "businessUnit": "MANUFACTURING",
+        "program": "Materials Characterisation and Modelling",
+        "projectDescription": "Follow-on activities for further exploitation of the GIL project outcome. The activities include: (1) evaluation of DCM characterization of AM metal parts porosity defects with neutron imaging at ANSTO, high-photon-energy X-ray CT imaging with PWR, Australian Synchrotron, ANU and Flinders uni; (2) Consortium development for establishment of high-energy industrial X-ray CT facility in CSIRO Clayton; (3) Commercial project proposal development for porosity defect detection and modelling characterization. ",
+        "projectLeader": "Sam Yang",
+        "projectTitle": "Porosity defect characterization for AM metal parts"
+    },
+    "organisationalLevels": {
+        "irpHierarchy": true,
+        "businessUnit": "MANUFACTURING",
+        "team": "Materials and Process Modelling",
+        "program": "Materials Characterisation and Modelling",
+        "group": "Structure, Morphology and Modelling"
+    },
+    "accessLevel": "Public",
+    "dataRestricted": "FALSE",
+    "mounted": true,
+    "depositStatus": "P",
+    "accessViewable": false,
+    "withdrawn": false,
+    "askapLevel7": false,
+    "permaLink": "https://doi.org/10.25919/6hhb-7w51",
+    "selfLink": "https://data.csiro.au/collection/csiro:53623"
+}

@@ -1,0 +1,488 @@
+{
+    "elapsedTime": 24,
+    "totalResults": "6933",
+    "page": 1,
+    "resultsPerPage": 10,
+    "next": {
+        "relationship": "next",
+        "mediaType": null,
+        "href": "https://data.csiro.au/dap/ws/v2/collections.json?rpp=10&p=2",
+        "fileUpload": false
+    },
+    "previous": null,
+    "first": {
+        "relationship": "first",
+        "mediaType": null,
+        "href": "https://data.csiro.au/dap/ws/v2/collections.json?rpp=10&p=1",
+        "fileUpload": false
+    },
+    "last": {
+        "relationship": "last",
+        "mediaType": null,
+        "href": "https://data.csiro.au/dap/ws/v2/collections.json?rpp=10&p=694",
+        "fileUpload": false
+    },
+    "query": "",
+    "showOnlyUnrestrictedData": false,
+    "sortBy": "RELEVANCE",
+    "complete": false,
+    "dataCollections": [
+        {
+            "id": {
+                "identifierType": "Fedora PID",
+                "identifier": "csiro:56570"
+            },
+            "dataCollectionId": 56570,
+            "self": "https://data.csiro.au/dap/ws/v2/collections/56570",
+            "landingPage": {
+                "relationship": "alternate",
+                "mediaType": "text/html",
+                "href": "https://data.csiro.au/collection/csiro:56570",
+                "fileUpload": false
+            },
+            "title": "Parkes observations for project PX500 semester 2022OCTS_01",
+            "description": "This proposal relates to time purchased by the Chinese Academy of Sciences for Parkes follow-up confirmation and timing of FAST discoveries.  As the observing time has been purchased this proposal (and the related PX501) does not require TAC grading.  The primary reason for submitting a proposal is to ensure an outreach statement and that the proposal is entered into OPAL for the data archive to access. The Chinese team have two time requests. The time scheduled for the first, relating to this proposal, will be allocated in blocks of 24 hours and the data will become available in the data archive with an 18 month embargo period.  The second type of time will be scheduled in shorter blocks and the data archived with a 10 year embargo.",
+            "licence": "Creative Commons Attribution 4.0 International Licence",
+            "licenceLink": {
+                "relationship": "license",
+                "mediaType": "text/html",
+                "href": "https://data.csiro.au/dap/ws/v2/licences/1121",
+                "fileUpload": false
+            },
+            "attributionStatement": "Li, Di; Green, James; Hobbs, George; Toomey, Lawrence; Cameron, Andrew; Dempsey, James; Wang, Jingbo; Dai, Shi; Zhang, Lei; Wang, Shen; Zhu, Weiwei; Yuan, Mao; Miao, Chenchen; Wang, Shuangqiang; Xue, Mengyao (2022): Parkes observations for project PX500 semester 2022OCTS_01. v1. CSIRO. Data Collection. https://doi.org/10.25919/5dea-0291",
+            "rights": "All Rights (including copyright) CSIRO 2022.",
+            "published": "2022-10-19T12:50:16.256+11:00",
+            "leadResearcher": "Di Li",
+            "contributors": [
+                "James Green",
+                "George Hobbs",
+                "Lawrence Toomey",
+                "Andrew Cameron",
+                "James Dempsey",
+                "Jingbo Wang",
+                "Shi Dai",
+                "Lei Zhang",
+                "Shen Wang",
+                "Weiwei Zhu",
+                "Mao Yuan",
+                "Chenchen Miao",
+                "Shuangqiang Wang",
+                "Mengyao Xue"
+            ],
+            "activity": {
+                "activityTitle": "PX500 - FAST: category 1 purchased time"
+            },
+            "collectionType": "Data",
+            "andsPid": "102.100.100/447624",
+            "doi": "10.25919/5dea-0291",
+            "dataRestricted": "TRUE"
+        },
+        {
+            "id": {
+                "identifierType": "Fedora PID",
+                "identifier": "csiro:56539"
+            },
+            "dataCollectionId": 56539,
+            "self": "https://data.csiro.au/dap/ws/v2/collections/56539",
+            "landingPage": {
+                "relationship": "alternate",
+                "mediaType": "text/html",
+                "href": "https://data.csiro.au/collection/csiro:56539",
+                "fileUpload": false
+            },
+            "title": "Parkes observations for project P1054 semester 2022OCTS_03",
+            "description": "With this proposal we ask time to continue our timing follow-up campaign of pulsars discovered with the MeerKAT telescope. Eighteen sources have been discovered in targeted observations of Fermi unidentified point sources, six in the Small Magellanic Cloud, 54 in Globular Clusters and 66 in a survey of the Galactic plane. A large fraction of the new discoveries are recycled pulsars (including at least one double neutron star system and several 'spider' binaries), or young pulsars. Timing observations have an essential role in exploiting the full potential of any pulsar discovery, allowing the precise measurement of rotational, astrometric and orbital parameters which, in turn, give us powerful tools to improve our understanding of the physics in extreme environments as well as of the population of neutron stars as a whole. The UWL receiver of the Parkes telescope is a sensitive, versatile instrument that is allowing us to successfully time these new sources, in the bright-end of TRAPUM discoveries. The UWL has also the unique advantage of allowing detailed studies of the eclipses of the so-called 'spider' pulsars, which make up about 1/3rd of the sources we aim at following-up with this project.",
+            "licence": "Creative Commons Attribution 4.0 International Licence",
+            "licenceLink": {
+                "relationship": "license",
+                "mediaType": "text/html",
+                "href": "https://data.csiro.au/dap/ws/v2/licences/1121",
+                "fileUpload": false
+            },
+            "attributionStatement": "Burgay, Marta; Possenti, Andrea; Kramer, Michael; Freire, Paulo; Weltevrede, Patrick; Stappers, Benjamin; Keane, Evan; Levin, Lina; Champion, David; Buchner, Sarah; Barr, Ewan; Venkatraman Krishnan, Vivek; Boettcher, Markus; Balakrishnan, Vishnu; Clark, Colin James; Breton, Rene; Desvignes, Gregory; Ridolfi, Alessandro; Cognard, Ismaël; Grießmeier, Jean-Mathias; Colom I Bernadich, Miquel; Thongmeearkom, Tinn; Sengupta, Shalini; Voraganti Padmanabh, Prajwal; Carli, Emma; Parthasarathy, Aditya; Men, Yunpeng (2022): Parkes observations for project P1054 semester 2022OCTS_03. v1. CSIRO. Data Collection. https://doi.org/10.25919/3djv-yy09",
+            "rights": "All Rights (including copyright) CSIRO 2022.",
+            "published": "2022-10-19T12:49:30.513+11:00",
+            "leadResearcher": "Marta Burgay",
+            "contributors": [
+                "Andrea Possenti",
+                "Michael Kramer",
+                "Paulo Freire",
+                "Patrick Weltevrede",
+                "Benjamin Stappers",
+                "Evan Keane",
+                "Lina Levin",
+                "David Champion",
+                "Sarah Buchner",
+                "Ewan Barr",
+                "Vivek Venkatraman Krishnan",
+                "Markus Boettcher",
+                "Vishnu Balakrishnan",
+                "Colin James Clark",
+                "Rene Breton",
+                "Gregory Desvignes",
+                "Alessandro Ridolfi",
+                "Ismaël Cognard",
+                "Jean-Mathias Grießmeier",
+                "Miquel Colom I Bernadich",
+                "Tinn Thongmeearkom",
+                "Shalini Sengupta",
+                "Prajwal Voraganti Padmanabh",
+                "Emma Carli",
+                "Aditya Parthasarathy",
+                "Yunpeng Men"
+            ],
+            "activity": {
+                "activityTitle": "P1054 - Follow-up of pulsar discoveries from MeerKAT searches"
+            },
+            "collectionType": "Data",
+            "andsPid": "102.100.100/447625",
+            "doi": "10.25919/3djv-yy09",
+            "dataRestricted": "TRUE"
+        },
+        {
+            "id": {
+                "identifierType": "Fedora PID",
+                "identifier": "csiro:55630"
+            },
+            "dataCollectionId": 56590,
+            "self": "https://data.csiro.au/dap/ws/v2/collections/56590",
+            "landingPage": {
+                "relationship": "alternate",
+                "mediaType": "text/html",
+                "href": "https://data.csiro.au/collection/csiro:55630",
+                "fileUpload": false
+            },
+            "title": "LIB-HSI: RGB and Hyperspectral images of Building Facades",
+            "description": "The LIB-HSI dataset contains hyperspectral reflectance images and their corresponding RGB images of building façades in a light industrial environment. The dataset also contains pixel-level annotated images for each hyperspectral/RGB image. The LIB-HSI dataset was created to develop deep learning methods for segmenting building facade materials.\n\nThe images were captured using a Specim IQ hyperspectral camera. The hyperspectral images are in the ENVI format. There are 393 training images, 45 validation images and 75 test images. \n\nIf you use this data, then please cite the following paper:\n\nHabili, N., Kwan E., Li, W., Oorloff, J., Webbers, C., Armin, A. and Petersson L., A Hyperspectral and RGB Dataset for Building Façade Segmentation, \nECCV Workshop on Computer Vision for Civil and Infrastructure Engineering, Tel Aviv, Isreal, 2022.\n\n@inproceedings{hab2022hsifacade,\n   author    = {Habili, Nariman and Kwan, Ernest and Li, Weihao and Oorloff, Jeremy and Webbers, Christfried and Armin, Ali and Petersson, Lars},\n   title     = {A Hyperspectral and RGB Dataset for Building Façade Segmentation},\n   booktitle = {ECCV Workshop on Computer Vision for Civil and Infrastructure Engineering},\n   year      = {2022},\n}",
+            "licence": "Creative Commons Attribution-Noncommercial 4.0 Licence",
+            "licenceLink": {
+                "relationship": "license",
+                "mediaType": "text/html",
+                "href": "https://data.csiro.au/dap/ws/v2/licences/1181",
+                "fileUpload": false
+            },
+            "attributionStatement": "Habili, Nariman; Armin, Ali; Oorloff, Jeremy; Li, Weihao; Webers, Christfried; Kwan, Ernest; Petersson, Lars (2022): LIB-HSI: RGB and Hyperspectral images of Building Facades. v3. CSIRO. Data Collection. https://doi.org/10.25919/3541-s396",
+            "rights": "All Rights (including copyright) CSIRO 2022.",
+            "published": "2022-10-19T12:32:53.957+11:00",
+            "leadResearcher": "Nariman Habili",
+            "contributors": [
+                "Ali Armin",
+                "Jeremy Oorloff",
+                "Weihao Li",
+                "Christfried Webers",
+                "Ernest Kwan",
+                "Lars Petersson"
+            ],
+            "activity": {},
+            "collectionType": "Data",
+            "andsPid": "102.100.100/443040",
+            "doi": "10.25919/3541-s396",
+            "project": {
+                "irpHierarchy": true,
+                "wbs": "R-15882",
+                "projectDescription": "ICH RD1 - Building/Infrastructure Inventory Capture and Analysis Using Machine Learning"
+            },
+            "dataRestricted": "FALSE"
+        },
+        {
+            "id": {
+                "identifierType": "Fedora PID",
+                "identifier": "csiro:50683"
+            },
+            "dataCollectionId": 56597,
+            "self": "https://data.csiro.au/dap/ws/v2/collections/56597",
+            "landingPage": {
+                "relationship": "alternate",
+                "mediaType": "text/html",
+                "href": "https://data.csiro.au/collection/csiro:50683",
+                "fileUpload": false
+            },
+            "title": "FluvDepoSet",
+            "description": "FluvDepoSet is a data set of 3D models of sedimentary deposits from single-threaded, sand-bedded meandering rivers. It aims at providing a training and testing data set for machine learning applications that require geologically plausible distributions of sedimentary heterogeneities.\nEach file includes a single model with three properties: the geological interfaces (topography and basement), the fraction of coarse sediments, and the deposition time of the sediments.",
+            "licence": "Creative Commons Attribution 4.0 International Licence",
+            "licenceLink": {
+                "relationship": "license",
+                "mediaType": "text/html",
+                "href": "https://data.csiro.au/dap/ws/v2/licences/1121",
+                "fileUpload": false
+            },
+            "attributionStatement": "Rongier, Guillaume; Peeters, Luk (2021): FluvDepoSet. v3. CSIRO. Data Collection. https://doi.org/10.25919/4fyq-q291",
+            "rights": "All Rights (including copyright) CSIRO 2021.",
+            "published": "2022-10-18T23:33:03.053+11:00",
+            "leadResearcher": "Guillaume Rongier",
+            "contributors": [
+                "Luk Peeters"
+            ],
+            "activity": {
+                "activityTitle": "Simulating fluvial deposits using generative adversarial networks"
+            },
+            "collectionType": "Data",
+            "andsPid": "102.100.100/447634",
+            "doi": "10.25919/4fyq-q291",
+            "project": {
+                "irpHierarchy": true,
+                "wbs": "R-14127",
+                "projectDescription": "DEI-FSP Funded Labour"
+            },
+            "dataRestricted": "TRUE"
+        },
+        {
+            "id": {
+                "identifierType": "Fedora PID",
+                "identifier": "csiro:55739"
+            },
+            "dataCollectionId": 56604,
+            "self": "https://data.csiro.au/dap/ws/v2/collections/56604",
+            "landingPage": {
+                "relationship": "alternate",
+                "mediaType": "text/html",
+                "href": "https://data.csiro.au/collection/csiro:55739",
+                "fileUpload": false
+            },
+            "title": "Soil and Landscape Grid National Soil Attribute Maps - Soil Depth (3\" resolution) - Release 2",
+            "description": "This is Version 2 of the Australian Soil Depth product of the Soil and Landscape Grid of Australia.\n\nIt supersedes the Release 1 product that can be found at https://doi.org/10.4225/08/546F540FE10AA\n\nThe map gives a modelled estimate of the spatial distribution of soil depth in soils across Australia.\n\nThe Soil and Landscape Grid of Australia has produced a range of digital soil attribute products. Each product contains six digital soil attribute maps, and their upper and lower confidence limits, representing the soil attribute at six depths: 0-5cm, 5-15cm, 15-30cm, 30-60cm, 60-100cm and 100-200cm. These depths are consistent with the specifications of the GlobalSoilMap.net project (https://esoil.io/TERNLandscapes/Public/Pages/SLGA/Resources/GlobalSoilMap_specifications_december_2015_2.pdf). The digital soil attribute maps are in raster format at a resolution of 3 arc sec (~90 x 90 m pixels).\n\nDetailed information about the  Soil and Landscape Grid of Australia can be found at - https://esoil.io/TERNLandscapes/Public/Pages/SLGA/index.html\n\nAttribute Definition: Depth of soil profile (A & B horizons)\nUnits: metres;\nPeriod (temporal coverage; approximately): 1950-2021;\nSpatial resolution: 3 arc seconds (approx 90m);\nTotal number of gridded maps for this attribute: 18;\nNumber of pixels with coverage per layer: 2007M (49200 * 40800);\nData license : Creative Commons Attribution 4.0 (CC BY);\nTarget data standard: GlobalSoilMap specifications;\nFormat: Cloud Optimised GeoTIFF;",
+            "licence": "Creative Commons Attribution 4.0 International Licence",
+            "licenceLink": {
+                "relationship": "license",
+                "mediaType": "text/html",
+                "href": "https://data.csiro.au/dap/ws/v2/licences/1121",
+                "fileUpload": false
+            },
+            "attributionStatement": "Malone, Brendan; Searle, Ross (2020): Soil and Landscape Grid National Soil Attribute Maps - Soil Depth (3\" resolution) - Release 2. v2. CSIRO. Data Collection. https://doi.org/10.25919/djdn-5x77",
+            "rights": "All Rights (including copyright) CSIRO 2020.",
+            "published": "2022-10-18T14:36:51.616+11:00",
+            "leadResearcher": "Brendan Malone",
+            "spatialParameters": {
+                "projection": "WGS84",
+                "northLatitude": "-9.99830972222222",
+                "southLatitude": "-43.642475",
+                "westLongitude": "112.91246805555556",
+                "eastLongitude": "153.6399663888889"
+            },
+            "contributors": [
+                "Ross Searle"
+            ],
+            "activity": {
+                "activityTitle": "National Soil Grid"
+            },
+            "collectionType": "Data",
+            "andsPid": "102.100.100/444878",
+            "doi": "10.25919/djdn-5x77",
+            "project": {
+                "irpHierarchy": true,
+                "wbs": "R-14062",
+                "projectDescription": "TERN Landscapes - Phase 2"
+            },
+            "dataRestricted": "FALSE"
+        },
+        {
+            "id": {
+                "identifierType": "Fedora PID",
+                "identifier": "csiro:56595"
+            },
+            "dataCollectionId": 56595,
+            "self": "https://data.csiro.au/dap/ws/v2/collections/56595",
+            "landingPage": {
+                "relationship": "alternate",
+                "mediaType": "text/html",
+                "href": "https://data.csiro.au/collection/csiro:56595",
+                "fileUpload": false
+            },
+            "title": "Molecular Phylogeny of Dermestidae (Coleoptera) Reveals  the Polyphyletic Nature of Trogoderma Latreille and the  Taxonomic Placement of the Khapra Beetle Trogoderma  granarium Everts",
+            "description": "We examined and identified 591 specimens, resulting in vouchers, \nimages, occurrence data, and mitochondrial genome sequences of \n355 species. All of these data have been collated by the unique data-\nbase number of each specimen and uploaded as a collection to the CSIRO long-term repository \nData Access Portal (LINK). ",
+            "licence": "Creative Commons Attribution-ShareAlike 4.0 International Licence",
+            "licenceLink": {
+                "relationship": "license",
+                "mediaType": "text/html",
+                "href": "https://data.csiro.au/dap/ws/v2/licences/1222",
+                "fileUpload": false
+            },
+            "attributionStatement": "Zhou, Lingzi (2022): Molecular Phylogeny of Dermestidae (Coleoptera) Reveals  the Polyphyletic Nature of Trogoderma Latreille and the  Taxonomic Placement of the Khapra Beetle Trogoderma  granarium Everts. v1. CSIRO. Service Collection. http://hdl.handle.net/102.100.100/447717?index=1",
+            "rights": "All Rights (including copyright) CSIRO 2022.",
+            "published": "2022-10-18T11:04:52.485+11:00",
+            "leadResearcher": "Lingzi Zhou",
+            "contributors": [],
+            "activity": {
+                "activityTitle": "DNA sequencing"
+            },
+            "collectionType": "Service",
+            "andsPid": "102.100.100/447717",
+            "doi": null,
+            "dataRestricted": "N/A"
+        },
+        {
+            "id": {
+                "identifierType": "Fedora PID",
+                "identifier": "csiro:56536"
+            },
+            "dataCollectionId": 56536,
+            "self": "https://data.csiro.au/dap/ws/v2/collections/56536",
+            "landingPage": {
+                "relationship": "alternate",
+                "mediaType": "text/html",
+                "href": "https://data.csiro.au/collection/csiro:56536",
+                "fileUpload": false
+            },
+            "title": "Parkes observations for project P1101 semester 2022OCTS_02",
+            "description": "We propose to carry out fortnightly monitoring of a very active repeater, FRB~190520, with the Parkes UWL system. Our current observations show that FRB~190520 is not only the most active FRB that can be observed with Parkes, but also shows extreme rotation measure (RM) variations and unique behavior at 2 to 3 GHz frequency. This makes UWL the ideal instrument to carry out in-depth studies of this repeating FRB. With this program, we expect to detect a large sample of bursts from FRB~190520, and in collaboration with the FAST telescope, we will study the local environment, emission properties, fluence distributions, and polarisation properties over an extremely wide bandwidth with high sensitivity.",
+            "licence": "Creative Commons Attribution 4.0 International Licence",
+            "licenceLink": {
+                "relationship": "license",
+                "mediaType": "text/html",
+                "href": "https://data.csiro.au/dap/ws/v2/licences/1121",
+                "fileUpload": false
+            },
+            "attributionStatement": "Dai, Shi; Hobbs, George; Li, Di; Zhu, Weiwei; Feng, Yi; Niu, Chenhui (2022): Parkes observations for project P1101 semester 2022OCTS_02. v1. CSIRO. Data Collection. https://doi.org/10.25919/mv7q-ck25",
+            "rights": "All Rights (including copyright) CSIRO 2022.",
+            "published": "2022-10-17T11:46:45.606+11:00",
+            "leadResearcher": "Shi Dai",
+            "contributors": [
+                "George Hobbs",
+                "Di Li",
+                "Weiwei Zhu",
+                "Yi Feng",
+                "Chenhui Niu"
+            ],
+            "activity": {
+                "activityTitle": "P1101 - Monitoring FRB190520 with the Parkes Ultra-Wideband Low receiver"
+            },
+            "collectionType": "Data",
+            "andsPid": "102.100.100/447616",
+            "doi": "10.25919/mv7q-ck25",
+            "dataRestricted": "TRUE"
+        },
+        {
+            "id": {
+                "identifierType": "Fedora PID",
+                "identifier": "csiro:38797"
+            },
+            "dataCollectionId": 56558,
+            "self": "https://data.csiro.au/dap/ws/v2/collections/56558",
+            "landingPage": {
+                "relationship": "alternate",
+                "mediaType": "text/html",
+                "href": "https://data.csiro.au/collection/csiro:38797",
+                "fileUpload": false
+            },
+            "title": "Social and Economic Long Term Monitoring Program (SELTMP) for the Great Barrier Reef data",
+            "description": "SELTMP is assisting Reef managers and other decision-makers within the Great Barrier Reef region to incorporate the human dimension into their planning and management. Analogous to the Australian Census, SELTMP gathers long-term data specific to Reef users, communities and industries, enabling new insights into relationships, vulnerabilities and dependencies between people and the natural resources.",
+            "licence": "Creative Commons Attribution-Noncommercial 4.0 Licence",
+            "licenceLink": {
+                "relationship": "license",
+                "mediaType": "text/html",
+                "href": "https://data.csiro.au/dap/ws/v2/licences/1181",
+                "fileUpload": false
+            },
+            "attributionStatement": "Marshall, Nadine; Curnock, Matt; Goldberg, Jeremy; Gooch, Margaret; Lankester, Ally; Pert, Petina; Scherl, Lea; Stone-Jovicich, Samantha; Tobin, Renae (2019): Social and Economic Long Term Monitoring Program (SELTMP) for the Great Barrier Reef data. v2. CSIRO. Data Collection. https://doi.org/10.25919/5c74c7a7965dc",
+            "rights": "All Rights (including copyright) CSIRO 2019.",
+            "published": "2022-10-14T11:03:53.318+11:00",
+            "leadResearcher": "Nadine Marshall",
+            "spatialParameters": {
+                "projection": "WGS84",
+                "northLatitude": "-10.468185",
+                "southLatitude": "-24.498425",
+                "westLongitude": "142.46459",
+                "eastLongitude": "154.001"
+            },
+            "contributors": [
+                "Matt Curnock",
+                "Jeremy Goldberg",
+                "Margaret Gooch",
+                "Ally Lankester",
+                "Petina Pert",
+                "Lea Scherl",
+                "Samantha Stone-Jovicich",
+                "Renae Tobin"
+            ],
+            "activity": {},
+            "collectionType": "Data",
+            "andsPid": "102.100.100/78597",
+            "doi": "10.25919/5c74c7a7965dc",
+            "project": {
+                "irpHierarchy": true,
+                "wbs": "R-09972",
+                "projectDescription": "SELTMP II Social and economic long term monitoring program for the GBR"
+            },
+            "dataRestricted": "FALSE"
+        },
+        {
+            "id": {
+                "identifierType": "Fedora PID",
+                "identifier": "csiro:56180"
+            },
+            "dataCollectionId": 56557,
+            "self": "https://data.csiro.au/dap/ws/v2/collections/56557",
+            "landingPage": {
+                "relationship": "alternate",
+                "mediaType": "text/html",
+                "href": "https://data.csiro.au/collection/csiro:56180",
+                "fileUpload": false
+            },
+            "title": "synthear: Raster-based methods for compiling ecosystem accounts",
+            "description": "The synthear R package provides raster-based functions for compiling ecosystem accounts. It is based on earlier work by Stewart et al. (2020; https://doi.org/10.25919/5f888e298da4f), which used a more precise but computationally expensive vector-tiling approach. Both were designed to support SEEA Ecosystem Accounting (SEEA EA; https://seea.un.org/ecosystem-accounting).\n\nThe accounting functions provided allow the user to calculate changes in extent and stocks between two time periods. These changes can be reported by a ‘change type’ image that will optionally track the reasons for additions and reductions. Stock accounts separately track changes due to reclassification in extent, supporting interpretation of changes over time. Time-series functions allow changes in extent, stocks, and flows to be quantified over time.  \n\nAdditional functionality is provided to support spatial analyses, such as generating Basic Spatial Unit (BSU) grids and calculating unique combinations of classes across multiple rasters.  \n",
+            "licence": "GNU General Public Licence v3.0",
+            "licenceLink": {
+                "relationship": "license",
+                "mediaType": "text/html",
+                "href": "https://data.csiro.au/dap/ws/v2/licences/1244",
+                "fileUpload": false
+            },
+            "attributionStatement": "Stewart, Stephen (2022): synthear: Raster-based methods for compiling ecosystem accounts. v4. CSIRO. Software Collection. https://doi.org/10.25919/kx7z-sh64",
+            "rights": "All Rights (including copyright) CSIRO 2022.",
+            "published": "2022-10-14T09:25:54.218+11:00",
+            "leadResearcher": "Stephen Stewart",
+            "contributors": [],
+            "activity": {},
+            "collectionType": "Software",
+            "andsPid": "102.100.100/446804",
+            "doi": "10.25919/kx7z-sh64",
+            "project": {
+                "irpHierarchy": true,
+                "wbs": "R-18387",
+                "projectDescription": "Phase 3 Land and Ecosystem Accounts Project"
+            },
+            "dataRestricted": "TRUE"
+        },
+        {
+            "id": {
+                "identifierType": "Fedora PID",
+                "identifier": "csiro:56533"
+            },
+            "dataCollectionId": 56533,
+            "self": "https://data.csiro.au/dap/ws/v2/collections/56533",
+            "landingPage": {
+                "relationship": "alternate",
+                "mediaType": "text/html",
+                "href": "https://data.csiro.au/collection/csiro:56533",
+                "fileUpload": false
+            },
+            "title": "Parkes observations for project P1101 semester 2022OCTS_01",
+            "description": "We propose to carry out fortnightly monitoring of a very active repeater, FRB~190520, with the Parkes UWL system. Our current observations show that FRB~190520 is not only the most active FRB that can be observed with Parkes, but also shows extreme rotation measure (RM) variations and unique behavior at 2 to 3 GHz frequency. This makes UWL the ideal instrument to carry out in-depth studies of this repeating FRB. With this program, we expect to detect a large sample of bursts from FRB~190520, and in collaboration with the FAST telescope, we will study the local environment, emission properties, fluence distributions, and polarisation properties over an extremely wide bandwidth with high sensitivity.",
+            "licence": "Creative Commons Attribution 4.0 International Licence",
+            "licenceLink": {
+                "relationship": "license",
+                "mediaType": "text/html",
+                "href": "https://data.csiro.au/dap/ws/v2/licences/1121",
+                "fileUpload": false
+            },
+            "attributionStatement": "Dai, Shi; Hobbs, George; Li, Di; Zhu, Weiwei; Feng, Yi; Niu, Chenhui (2022): Parkes observations for project P1101 semester 2022OCTS_01. v1. CSIRO. Data Collection. https://doi.org/10.25919/by41-7d34",
+            "rights": "All Rights (including copyright) CSIRO 2022.",
+            "published": "2022-10-14T05:56:15.222+11:00",
+            "leadResearcher": "Shi Dai",
+            "contributors": [
+                "George Hobbs",
+                "Di Li",
+                "Weiwei Zhu",
+                "Yi Feng",
+                "Chenhui Niu"
+            ],
+            "activity": {
+                "activityTitle": "P1101 - Monitoring FRB190520 with the Parkes Ultra-Wideband Low receiver"
+            },
+            "collectionType": "Data",
+            "andsPid": "102.100.100/447603",
+            "doi": "10.25919/by41-7d34",
+            "dataRestricted": "TRUE"
+        }
+    ]
+}

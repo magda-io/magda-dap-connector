@@ -1,16 +1,17 @@
 import { addJwtSecretFromEnvVar } from "@magda/utils";
 import {
-    AspectBuilder,
     JsonConnector,
     AuthorizedRegistryClient as Registry
 } from "@magda/connector-sdk";
 import Dap from "./Dap";
 import createTransformer from "./createTransformer";
-import fs from "fs";
+import {
+    datasetAspectBuilders,
+    organizationAspectBuilders,
+    distributionAspectBuilders
+} from "./aspectBuilders";
 import yargs from "yargs";
 
-//npm run dev -- --config ../deploy/connector-config/csiro-dap.json --userId="00000000-0000-4000-8000-000000000000" --jwtSecret="squirrel"
-//npm run dev -- --config ../deploy/connector-config/csiro-dap.json --userId="00000000-0000-4000-8000-000000000000" --jwtSecret="squirrel" --registryUrl="http://192.168.137.107:30860/v0"
 const argv = addJwtSecretFromEnvVar(
     yargs
         .config()
@@ -93,129 +94,6 @@ const argv = addJwtSecretFromEnvVar(
         }).argv
 );
 
-const datasetAspectBuilders: AspectBuilder[] = [
-    {
-        aspectDefinition: {
-            id: "dap-dataset",
-            name: "DAP Dataset",
-            jsonSchema: require("@magda/registry-aspects/dap-dataset.schema.json")
-        },
-        builderFunctionString: fs.readFileSync(
-            "aspect-templates/dap-dataset.js",
-            "utf8"
-        )
-    },
-    {
-        aspectDefinition: {
-            id: "dcat-dataset-strings",
-            name: "DCAT Dataset properties as strings",
-            jsonSchema: require("@magda/registry-aspects/dcat-dataset-strings.schema.json")
-        },
-        builderFunctionString: fs.readFileSync(
-            "aspect-templates/dcat-dataset-strings.js",
-            "utf8"
-        )
-    },
-    {
-        aspectDefinition: {
-            id: "source",
-            name: "Source",
-            jsonSchema: require("@magda/registry-aspects/source.schema.json")
-        },
-        builderFunctionString: fs.readFileSync(
-            "aspect-templates/dataset-source.js",
-            "utf8"
-        )
-    },
-    {
-        aspectDefinition: {
-            id: "temporal-coverage",
-            name: "Temporal Coverage",
-            jsonSchema: require("@magda/registry-aspects/temporal-coverage.schema.json")
-        },
-        setupFunctionString: fs.readFileSync(
-            "aspect-templates/temporal-coverage-setup.js",
-            "utf8"
-        ),
-        builderFunctionString: fs.readFileSync(
-            "aspect-templates/temporal-coverage.js",
-            "utf8"
-        )
-    }
-];
-
-const distributionAspectBuilders: AspectBuilder[] = [
-    // {
-    //     aspectDefinition: {
-    //         id: "ckan-resource",
-    //         name: "CKAN Resource",
-    //         jsonSchema: require("@magda/registry-aspects/ckan-resource.schema.json")
-    //     },
-    //     builderFunctionString: fs.readFileSync(
-    //         "aspect-templates/dap-resource.js",
-    //         "utf8"
-    //     )
-    // },
-    {
-        aspectDefinition: {
-            id: "dap-resource",
-            name: "DAP Resource",
-            jsonSchema: require("@magda/registry-aspects/dap-resource.schema.json")
-        },
-        builderFunctionString: fs.readFileSync(
-            "aspect-templates/dap-resource.js",
-            "utf8"
-        )
-    },
-    {
-        aspectDefinition: {
-            id: "dcat-distribution-strings",
-            name: "DCAT Distribution properties as strings",
-            jsonSchema: require("@magda/registry-aspects/dcat-distribution-strings.schema.json")
-        },
-        builderFunctionString: fs.readFileSync(
-            "aspect-templates/dcat-distribution-strings.js",
-            "utf8"
-        )
-    },
-    {
-        aspectDefinition: {
-            id: "source",
-            name: "Source",
-            jsonSchema: require("@magda/registry-aspects/source.schema.json")
-        },
-        builderFunctionString: fs.readFileSync(
-            "aspect-templates/distribution-source.js",
-            "utf8"
-        )
-    }
-];
-
-const organizationAspectBuilders: AspectBuilder[] = [
-    {
-        aspectDefinition: {
-            id: "source",
-            name: "Source",
-            jsonSchema: require("@magda/registry-aspects/source.schema.json")
-        },
-        builderFunctionString: fs.readFileSync(
-            "aspect-templates/organization-source.js",
-            "utf8"
-        )
-    },
-    {
-        aspectDefinition: {
-            id: "organization-details",
-            name: "Organization",
-            jsonSchema: require("@magda/registry-aspects/organization-details.schema.json")
-        },
-        builderFunctionString: fs.readFileSync(
-            "aspect-templates/organization-details.js",
-            "utf8"
-        )
-    }
-];
-
 const dap = new Dap({
     baseUrl: argv.sourceUrl,
     id: argv.id,
@@ -254,7 +132,7 @@ const connector = new JsonConnector({
 });
 
 if (!argv.interactive) {
-    connector.run().then(result => {
+    connector.run().then((result) => {
         console.log(result.summarize());
     });
 } else {

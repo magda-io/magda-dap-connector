@@ -1,12 +1,13 @@
-var moment = libraries.moment;
-var dap = libraries.dap;
-
+const getDateTimeString = libraries.getDateTimeString;
+const dap = libraries.dap;
+// The `dataset` object is available in the scope
+// dataset structure see `CollectionResponse` in src/DapTypes
 return {
     title: dataset.title || dataset.name,
-    description: dataset.description,
-    issued: dataset.published
-        ? moment.utc(dataset.published).format()
-        : undefined,
+    description: `${dataset?.description ? dataset.description + "\n\n" : ""}${
+        dataset?.access ? dataset.access + "\n\n" : ""
+    }`,
+    issued: getDateTimeString(dataset?.published),
     modified: undefined,
     languages: ["English"],
     publisher:
@@ -20,5 +21,6 @@ return {
     themes: dataset.fieldOfResearch || [],
     keywords: dataset.keywords ? dataset.keywords.split(/[;,]+/) : [],
     contactPoint: dataset.attributionStatement,
-    landingPage: dataset.landingPage.href
+    landingPage: dataset.landingPage.href,
+    defaultLicense: dataset?.licence
 };
