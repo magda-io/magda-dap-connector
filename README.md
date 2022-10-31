@@ -6,27 +6,24 @@
 
 Magda dap Connector is created for crawling data from CSIRO Data Access Portal (DAP).
 
-### Helm Chart
+### Release Registry
 
-It's recommanded to deploy connectors with as [dependencies](https://helm.sh/docs/topics/chart_best_practices/dependencies/) of a Magda helm deployment. Example can be found from [here](https://github.com/magda-io/magda-config).
+Since v2.0.0, we use [Github Container Registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry) as our official Helm Chart & Docker Image release registry.
 
--   Magda Helm Charts Repository Url: https://charts.magda.io
+It's recommended to deploy connectors with as [dependencies](https://helm.sh/docs/topics/chart_best_practices/dependencies/) of a Magda helm deployment.
 
-The [helm chart](https://helm.sh/docs/topics/charts/) for this connector is auto released when a [Github Release](https://help.github.com/en/github/administering-a-repository/creating-releases) is created for this repo.
-
--   Add repository to helm:
-
-```bash
-helm repo add magda-io https://charts.magda.io
+```yaml
+dependencies:
+  - name: magda-dap-connector
+    version: "2.0.0"
+    alias: connector-dap
+    repository: "oci://ghcr.io/magda-io/charts"
+    tags:
+      - connectors
+      - connector-dap
 ```
 
-### Docker Image
-
-Docker image releases can be found from Docker Hub:
-
-https://hub.docker.com/r/data61/magda-dap-connector/
-
-Development releases (per commit) are also available from [GitHub Registry](https://github.com/magda-io/magda-dap-connector/packages) and accessible with access token.
+For earlier version, please access our legacy Helm Chart repo: `https://charts.magda.io`.
 
 ## Requirements
 
